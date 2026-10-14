@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me — Antonyos Farag | Cybersecurity, CS & Robotics</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Top Bar -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <div class="brand-mark">AF</div>
+        <div class="brand-text">
+          <span class="brand-name">Antonyos Farag</span>
+          <span class="brand-sub">CS &amp; IT (Robotics) @ HNU Egypt · Cybersecurity Focus</span>
+        </div>
+      </div>
+      <div class="topbar-actions">
+        <button class="btn btn-primary" id="openAiPromptBtn" type="button">
+          Copy AI Assistant Context
+        </button>
+        <button class="btn" id="copyFullMarkdownBtn" type="button">
+          Copy Full Markdown
+        </button>
+        <a class="btn" href="ABOUT_ME.md" target="_blank" rel="noopener">
+          Raw ABOUT_ME.md
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Workspace Layout -->
+  <div class="layout">
+    <!-- Left Navigation Sidebar -->
+    <aside class="sidebar" aria-label="Section Navigation">
+      <div class="sidebar-label">Profile Sections</div>
+      <ul class="nav-list" id="sectionNav">
+        <li><a class="nav-link active" href="#sec-1"><span class="nav-num">01</span>Academic Background</a></li>
+        <li><a class="nav-link" href="#sec-2"><span class="nav-num">02</span>Cybersecurity Focus</a></li>
+        <li><a class="nav-link" href="#sec-3"><span class="nav-num">03</span>Training &amp; Experience</a></li>
+        <li><a class="nav-link" href="#sec-4"><span class="nav-num">04</span>Tools, Platforms &amp; Labs</a></li>
+        <li><a class="nav-link" href="#sec-5"><span class="nav-num">05</span>AI &amp; Machine Learning</a></li>
+        <li><a class="nav-link" href="#sec-6"><span class="nav-num">06</span>AI, Robotics &amp; Security</a></li>
+        <li><a class="nav-link" href="#sec-7"><span class="nav-num">07</span>Projects &amp; Documentation</a></li>
+        <li><a class="nav-link" href="#sec-8"><span class="nav-num">08</span>Professional Direction</a></li>
+        <li><a class="nav-link" href="#sec-9"><span class="nav-num">09</span>Learning Style</a></li>
+        <li><a class="nav-link" href="#sec-10"><span class="nav-num">10</span>AI Assistant Guidelines</a></li>
+      </ul>
+
+      <div class="sidebar-divider"></div>
+      <div class="sidebar-label">Progression Legend</div>
+      <div class="legend-list">
+        <div class="legend-item"><span class="dot dot-completed"></span>Completed Training</div>
+        <div class="legend-item"><span class="dot dot-active"></span>Current Practical Focus</div>
+        <div class="legend-item"><span class="dot dot-foundation"></span>Academic &amp; Math Foundations</div>
+        <div class="legend-item"><span class="dot dot-future"></span>Long-Term Exploration</div>
+      </div>
+    </aside>
+
+    <!-- Main Content Column -->
+    <main class="content">
+      <!-- Hero Dossier Card -->
+      <section class="hero-card">
+        <div class="hero-eyebrow">TECHNICAL PROFILE &amp; REFERENCE DOSSIER</div>
+        <h1 class="hero-title">About Me — Antonyos Farag</h1>
+        <p class="hero-lead">
+          Undergraduate student in Computer Science and Information Technology at HNU in Egypt, specializing in Robotics. My primary professional direction is <strong>Cybersecurity</strong> (defensive security, SOC operations, threat hunting, incident response, and endpoint investigation), supported by an academic foundation in computer science, robotics, and the mathematical foundations of AI and machine learning.
+        </p>
+        <div class="hero-meta-grid">
+          <div class="meta-box">
+            <div class="meta-label">University &amp; Track</div>
+            <div class="meta-value">CS &amp; IT (Robotics) — HNU, Egypt</div>
+          </div>
+          <div class="meta-box">
+            <div class="meta-label">Primary Direction</div>
+            <div class="meta-value">Cybersecurity &amp; SOC Operations</div>
+          </div>
+          <div class="meta-box">
+            <div class="meta-label">Key Completed Scores</div>
+            <div class="meta-value">NTI/ITIDA 99.5% · CyberOps 92/100</div>
+          </div>
+          <div class="meta-box">
+            <div class="meta-label">Long-Term Trajectory</div>
+            <div class="meta-value">AI Security &amp; Autonomous Systems</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Filter & Search Bar -->
+      <div class="filter-bar" role="region" aria-label="Filter sections by stage or keyword">
+        <div class="filter-group">
+          <span class="filter-label">STAGE FILTER:</span>
+          <button class="chip-btn active" data-filter="all" type="button">All (10)</button>
+          <button class="chip-btn" data-filter="completed" type="button">Completed Training</button>
+          <button class="chip-btn" data-filter="active" type="button">Active Focus &amp; Labs</button>
+          <button class="chip-btn" data-filter="foundation" type="button">Academic &amp; Math Foundations</button>
+          <button class="chip-btn" data-filter="future" type="button">Long-Term Exploration</button>
+        </div>
+        <input
+          type="search"
+          id="searchInput"
+          class="search-input"
+          placeholder="Search skills, tools, subjects (e.g. Sysmon, Elastic)..."
+          aria-label="Search profile content"
+        />
+      </div>
+
+      <!-- 1. Academic Background -->
+      <article class="section-card" id="sec-1" data-stage="foundation">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-index">01</span>
+            <h2 class="section-title">Academic Background</h2>
+          </div>
+          <span class="status-badge badge-foundation">Academic Foundation · HNU Egypt</span>
+        </div>
+        <p class="section-prose">
+          I am an undergraduate student in Computer Science and Information Technology at HNU in Egypt, specializing in Robotics. My academic background combines computer science, robotics, intelligent systems, automation, and artificial intelligence.
+        </p>
+        <p class="section-prose">My university studies cover a broad range of technical subjects, including:</p>
+        <div class="tag-grid">
+          <div class="tag-item"><span>Artificial Intelligence (AI)</span><span class="tag-domain">AI/ML</span></div>
+          <div class="tag-item"><span>Machine Learning (ML)</span><span class="tag-domain">AI/ML</span></div>
+          <div class="tag-item"><span>Pattern Recognition</span><span class="tag-domain">AI/ML</span></div>
+          <div class="tag-item"><span>Neural Networks</span><span class="tag-domain">AI/ML</span></div>
+          <div class="tag-item"><span>Computer Vision</span><span class="tag-domain">Vision</span></div>
+          <div class="tag-item"><span>Natural Language Processing (NLP)</span><span class="tag-domain">Language</span></div>
+          <div class="tag-item"><span>Speech Processing</span><span class="tag-domain">Signal</span></div>
+          <div class="tag-item"><span>Algorithms &amp; Problem-Solving</span><span class="tag-domain">Core CS</span></div>
+          <div class="tag-item"><span>Operating Systems</span><span class="tag-domain">Systems</span></div>
+          <div class="tag-item"><span>Computer Architecture &amp; Microprocessors</span><span class="tag-domain">Hardware</span></div>
+          <div class="tag-item"><span>Embedded &amp; Real-Time Systems</span><span class="tag-domain">Embedded</span></div>
+          <div class="tag-item"><span>Computer Networks &amp; Information Security</span><span class="tag-domain">Net/Sec</span></div>
+          <div class="tag-item"><span>Robotics, Robot Arms &amp; Mobile Robots</span><span class="tag-domain">Robotics</span></div>
+          <div class="tag-item"><span>Sensors &amp; Actuators</span><span class="tag-domain">Robotics</span></div>
+          <div class="tag-item"><span>Automatic Control</span><span class="tag-domain">Control</span></div>
+          <div class="tag-item"><span>Virtual Reality &amp; Parallel Processing</span><span class="tag-domain">Computing</span></div>
+        </div>
+        <div class="callout-box">
+          I am interested in understanding how these subjects connect to one another, especially how robotics, intelligent systems, AI, and cybersecurity can complement each other.
+        </div>
+      </article>
+
+      <!-- 2. Cybersecurity Focus -->
+      <article class="section-card" id="sec-2" data-stage="active">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-index">02</span>
+            <h2 class="section-title">Cybersecurity Focus</h2>
+          </div>
+          <span class="status-badge badge-active">Primary Professional Direction</span>
+        </div>
+        <p class="section-prose">
+          Cybersecurity is my primary professional direction. I am developing practical skills through structured training, hands-on labs, technical projects, and independent investigation.
+        </p>
+        <div class="tag-grid">
+          <div class="tag-item"><span>Security Operations Center (SOC) Operations</span><span class="tag-domain">SOC</span></div>
+          <div class="tag-item"><span>SOC Analyst &amp; SOC Engineer Career Paths</span><span class="tag-domain">Role</span></div>
+          <div class="tag-item"><span>Network Security &amp; Traffic Analysis</span><span class="tag-domain">Network</span></div>
+          <div class="tag-item"><span>Threat Hunting &amp; Incident Response</span><span class="tag-domain">IR/Hunt</span></div>
+          <div class="tag-item"><span>Digital Forensics &amp; Endpoint Investigation</span><span class="tag-domain">DFIR</span></div>
+          <div class="tag-item"><span>SIEM Monitoring, Alert Analysis &amp; Event Investigation</span><span class="tag-domain">SIEM</span></div>
+          <div class="tag-item"><span>Windows Security, Sysmon &amp; Linux</span><span class="tag-domain">OS Sec</span></div>
+          <div class="tag-item"><span>Detection Engineering &amp; Security Monitoring</span><span class="tag-domain">Detection</span></div>
+          <div class="tag-item"><span>Threat Intelligence &amp; Adversary Behavior</span><span class="tag-domain">CTI</span></div>
+          <div class="tag-item"><span>Web Application Security &amp; Penetration Testing</span><span class="tag-domain">AppSec</span></div>
+          <div class="tag-item"><span>Red Team Fundamentals &amp; Offensive Techniques</span><span class="tag-domain">Offensive</span></div>
+        </div>
+        <p class="section-prose">
+          My longer-term goal is to develop strong practical security skills, understand how attacks work, recognize suspicious behavior, investigate security incidents, and improve detection and response capabilities.
+        </p>
+        <div class="callout-box">
+          I am particularly interested in connecting offensive security knowledge with defensive security operations, allowing me to understand both attacker techniques and how defenders can detect and investigate them.
+        </div>
+      </article>
+
+      <!-- 3. Cybersecurity Training and Practical Experience -->
+      <article class="section-card" id="sec-3" data-stage="completed">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-index">03</span>
+            <h2 class="section-title">Cybersecurity Training and Practical Experience</h2>
+          </div>
+          <span class="status-badge badge-completed">Completed Programs &amp; Active Practice</span>
+        </div>
+        <p class="section-prose">
+          I have completed cybersecurity training and hands-on learning programs, including:
+        </p>
+        <div class="table-wrap">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Program / Training</th>
+                <th>Details &amp; Curriculum Scope</th>
+                <th>Outcome / Grade</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>NTI/ITIDA Network Security Training</strong></td>
+                <td>90 hours of technical training and 30 hours of soft skills and freelancing training</td>
+                <td><span class="metric-pill">99.5% Final Grade</span></td>
+              </tr>
+              <tr>
+                <td><strong>Cisco CyberOps Associate Training</strong></td>
+                <td>Completed through NTI and Cisco Networking Academy</td>
+                <td><span class="metric-pill">92 / 100 Score</span></td>
+              </tr>
+              <tr>
+                <td><strong>Huawei HCIA-Security V4.0 Training</strong></td>
+                <td>Network and information security training</td>
+                <td><span class="metric-pill">Completed</span></td>
+              </tr>
+              <tr>
+                <td><strong>TryHackMe SOC Level 2</strong></td>
+                <td>Security operations, SIEM monitoring, detection engineering, and incident response</td>
+                <td><span class="metric-pill">Completed</span></td>
+              </tr>
+              <tr>
+                <td><strong>TryHackMe Advanced Endpoint Investigation</strong></td>
+                <td>File-system analysis, Windows/Linux investigations, macOS &amp; mobile concepts, memory forensics, disk-image analysis</td>
+                <td><span class="metric-pill">Completed</span></td>
+              </tr>
+              <tr>
+                <td><strong>TIPS Hindawi Cybersecurity Internship Program</strong></td>
+                <td>Penetration Testing track</td>
+                <td><span class="metric-pill">Completed</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="section-prose">
+          My practical learning has included security monitoring, packet and traffic analysis, threat hunting, incident investigation, endpoint forensics, web security, and adversary techniques.
+        </p>
+        <p class="section-prose">
+          Through advanced endpoint investigation, I have explored file-system analysis, Windows and Linux investigations, macOS and mobile investigation concepts, memory forensics, disk-image analysis, and underlying technical concepts beyond simply using security tools.
+        </p>
+        <p class="section-prose">
+          I am also developing my understanding of detection engineering, Windows event analysis, Sigma rules, MITRE ATT&amp;CK, and the relationship between telemetry, attacker behavior, and security alerts.
+        </p>
+      </article>
+
+      <!-- 4. Tools, Platforms, and Labs -->
+      <article class="section-card" id="sec-4" data-stage="active">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-index">04</span>
+            <h2 class="section-title">Tools, Platforms, and Labs</h2>
+          </div>
+          <span class="status-badge badge-active">Hands-On Lab &amp; Tooling Stack</span>
+        </div>
+        <p class="section-prose">
+          I have worked with or studied the following tools and technologies through training and practical exercises:
+        </p>
+        <div class="tag-grid">
+          <div class="tag-item"><span>Elastic Stack (Elasticsearch &amp; Kibana)</span><span class="tag-domain">SIEM</span></div>
+          <div class="tag-item"><span>Elastic Agent, Fleet &amp; Fleet Server</span><span class="tag-domain">Telemetry</span></div>
+          <div class="tag-item"><span>Splunk</span><span class="tag-domain">SIEM</span></div>
+          <div class="tag-item"><span>Wazuh</span><span class="tag-domain">XDR/SIEM</span></div>
+          <div class="tag-item"><span>Wireshark</span><span class="tag-domain">Packet Analysis</span></div>
+          <div class="tag-item"><span>Sysmon &amp; Winlogbeat</span><span class="tag-domain">Endpoint Logs</span></div>
+          <div class="tag-item"><span>FortiGate</span><span class="tag-domain">Firewall</span></div>
+          <div class="tag-item"><span>Cisco Packet Tracer</span><span class="tag-domain">Networking</span></div>
+          <div class="tag-item"><span>Burp Suite</span><span class="tag-domain">Web Sec</span></div>
+          <div class="tag-item"><span>Nmap</span><span class="tag-domain">Discovery</span></div>
+          <div class="tag-item"><span>Kali Linux</span><span class="tag-domain">Offensive OS</span></div>
+          <div class="tag-item"><span>Windows &amp; Windows Server</span><span class="tag-domain">OS</span></div>
+          <div class="tag-item"><span>Linux Environments</span><span class="tag-domain">OS</span></div>
+        </div>
+
+        <!-- Interactive SOC Lab Architecture Inspector -->
+        <div class="lab-Explorer">
+          <div class="meta-label" style="margin-bottom: 0.6rem;">INTERACTIVE SOC LAB ARCHITECTURE (CLICK A COMPONENT TO INSPECT)</div>
+          <div class="lab-nodes" id="labNodes">
+            <button class="lab-node-btn active" type="button" data-node="elastic">
+              <div class="lab-node-title">Ubuntu Elastic Stack</div>
+              <div class="lab-node-sub">Elasticsearch, Kibana &amp; Fleet</div>
+            </button>
+            <button class="lab-node-btn" type="button" data-node="windows">
+              <div class="lab-node-title">Windows Endpoints &amp; Server</div>
+              <div class="lab-node-sub">Host &amp; Domain Environment</div>
+            </button>
+            <button class="lab-node-btn" type="button" data-node="telemetry">
+              <div class="lab-node-title">Sysmon &amp; Winlogbeat</div>
+              <div class="lab-node-sub">Event &amp; Telemetry Collection</div>
+            </button>
+            <button class="lab-node-btn" type="button" data-node="fortigate">
+              <div class="lab-node-title">FortiGate</div>
+              <div class="lab-node-sub">Network Perimeter &amp; Traffic</div>
+            </button>
+          </div>
+          <div class="lab-detail-panel" id="labDetailPanel">
+            <strong>Ubuntu-based Elastic Environment:</strong> Central SIEM server running Elasticsearch and Kibana alongside Elastic Agent, Fleet, and Fleet Server to ingest, parse, and analyze host and network security telemetry across the lab.
+          </div>
+        </div>
+
+        <p class="section-prose" style="margin-top: 1rem;">
+          I am interested in building realistic security environments, generating security telemetry, investigating alerts, understanding detection logic, and documenting the results of technical experiments.
+        </p>
+        <p class="section-prose">
+          My TryHackMe learning is an important part of my development. I solve rooms, practice investigation techniques, revisit concepts, and aim to document my solutions as structured technical write-ups on GitHub.
+        </p>
+      </article>
+
+      <!-- 5. Artificial Intelligence and Machine Learning -->
+      <article class="section-card" id="sec-5" data-stage="foundation">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-index">05</span>
+            <h2 class="section-title">Artificial Intelligence and Machine Learning</h2>
+          </div>
+          <span class="status-badge badge-foundation">Progressive Math &amp; Algorithmic Foundations</span>
+        </div>
+        <p class="section-prose">
+          Alongside cybersecurity, I am studying AI-related subjects at university and want to develop a strong understanding of the mathematical and algorithmic foundations behind intelligent systems.
+        </p>
+        <div class="tag-grid">
+          <div class="tag-item"><span>Artificial Intelligence &amp; Machine Learning</span><span class="tag-domain">Core</span></div>
+          <div class="tag-item"><span>Deep Learning &amp; Neural Networks</span><span class="tag-domain">Representation</span></div>
+          <div class="tag-item"><span>Pattern Recognition</span><span class="tag-domain">Analysis</span></div>
+          <div class="tag-item"><span>Regression &amp; Predictive Modeling</span><span class="tag-domain">Modeling</span></div>
+          <div class="tag-item"><span>Classification &amp; Model Evaluation</span><span class="tag-domain">Evaluation</span></div>
+          <div class="tag-item"><span>Optimization &amp; Gradient Descent</span><span class="tag-domain">Optimization</span></div>
+          <div class="tag-item"><span>Calculus &amp; Linear Algebra for ML</span><span class="tag-domain">Mathematics</span></div>
+          <div class="tag-item"><span>Computer Vision &amp; NLP</span><span class="tag-domain">Perception</span></div>
+          <div class="tag-item"><span>Intelligent &amp; Autonomous Systems</span><span class="tag-domain">Autonomy</span></div>
+        </div>
+        <p class="section-prose">
+          I do not want to treat AI as simply a collection of libraries or ready-made models. I want to understand the mathematics, algorithms, assumptions, and mechanisms behind the models I use. For example, I am interested in how regression models learn from data, how optimization algorithms minimize loss functions, how derivatives contribute to gradient descent, and how neural networks learn representations.
+        </p>
+        <div class="callout-box">
+          I am building my foundations progressively, beginning with the necessary mathematics and core machine-learning concepts before moving toward more advanced deep-learning topics. My current goal is to develop genuine conceptual understanding rather than prematurely claim expertise in machine learning or deep learning.
+        </div>
+      </article>
+
+      <!-- 6. The Intersection of AI, Robotics, and Cybersecurity -->
+      <article class="section-card" id="sec-6" data-stage="future">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-index">06</span>
+            <h2 class="section-title">The Intersection of AI, Robotics, and Cybersecurity</h2>
+          </div>
+          <span class="status-badge badge-future">Long-Term Exploration</span>
+        </div>
+        <p class="section-prose">
+          One of my main long-term interests is the intersection of AI and cybersecurity. My robotics and computer science background gives me an academic foundation in intelligent systems, algorithms, automation, and autonomous technologies. My cybersecurity training gives me a practical perspective on networks, operating systems, security monitoring, investigation, and attacker behavior.
+        </p>
+        <p class="section-prose">I want to explore how these fields can work together, particularly in areas such as:</p>
+        <div class="tag-grid">
+          <div class="tag-item"><span>AI for Cybersecurity</span><span class="tag-domain">Future Goal</span></div>
+          <div class="tag-item"><span>ML for Security Analytics &amp; Anomaly Detection</span><span class="tag-domain">Future Goal</span></div>
+          <div class="tag-item"><span>Intelligent Threat Detection &amp; Investigation</span><span class="tag-domain">Future Goal</span></div>
+          <div class="tag-item"><span>AI Security &amp; Protection of AI Systems</span><span class="tag-domain">Future Goal</span></div>
+          <div class="tag-item"><span>Adversarial Machine Learning</span><span class="tag-domain">Future Goal</span></div>
+          <div class="tag-item"><span>Security of Autonomous &amp; Robotic Systems</span><span class="tag-domain">Future Goal</span></div>
+          <div class="tag-item"><span>Abnormal Behavior Detection in Complex Systems</span><span class="tag-domain">Future Goal</span></div>
+        </div>
+        <div class="callout-box">
+          These are areas I want to investigate and develop toward over time, rather than fields in which I currently claim professional expertise.
+        </div>
+      </article>
+
+      <!-- 7. Projects and Technical Documentation -->
+      <article class="section-card" id="sec-7" data-stage="active">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-index">07</span>
+            <h2 class="section-title">Projects and Technical Documentation</h2>
+          </div>
+          <span class="status-badge badge-active">Portfolio Methodology</span>
+        </div>
+        <p class="section-prose">
+          I am developing a technical portfolio centered on practical learning, reproducible experiments, and clear documentation. My GitHub portfolio is intended to include:
+        </p>
+        <div class="tag-grid">
+          <div class="tag-item"><span>TryHackMe Room Write-Ups</span><span class="tag-domain">Write-Ups</span></div>
+          <div class="tag-item"><span>Technical Walkthroughs &amp; Investigation Notes</span><span class="tag-domain">DFIR Notes</span></div>
+          <div class="tag-item"><span>Security Analysis &amp; Detection Experiments</span><span class="tag-domain">Detection</span></div>
+          <div class="tag-item"><span>Lab Configurations &amp; Troubleshooting Notes</span><span class="tag-domain">Engineering</span></div>
+          <div class="tag-item"><span>Explanations of Techniques, Tools &amp; Concepts</span><span class="tag-domain">Analysis</span></div>
+          <div class="tag-item"><span>Screenshots, Diagrams, Queries &amp; Evidence</span><span class="tag-domain">Evidence</span></div>
+        </div>
+        <div class="callout-box">
+          My goal is not simply to publish answers or flags. I want my documentation to explain the investigation process, the reasoning behind each step, the evidence observed, the tools used, and the lessons learned. I value technical accuracy, reproducibility, and explanations that demonstrate understanding rather than blindly following instructions.
+        </div>
+      </article>
+
+      <!-- 8. Professional Direction -->
+      <article class="section-card" id="sec-8" data-stage="active">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-index">08</span>
+            <h2 class="section-title">Professional Direction</h2>
+          </div>
+          <span class="status-badge badge-active">Career Trajectory</span>
+        </div>
+        <p class="section-prose">
+          My current professional priority is cybersecurity, particularly defensive security and SOC-related roles. The roles and areas I am interested in include:
+        </p>
+        <div class="tag-grid">
+          <div class="tag-item"><span>SOC Analyst</span><span class="tag-domain">Primary Role</span></div>
+          <div class="tag-item"><span>SOC Engineer</span><span class="tag-domain">Primary Role</span></div>
+          <div class="tag-item"><span>Security Operations</span><span class="tag-domain">Operations</span></div>
+          <div class="tag-item"><span>Network Security</span><span class="tag-domain">Network</span></div>
+          <div class="tag-item"><span>Threat Hunting</span><span class="tag-domain">Proactive</span></div>
+          <div class="tag-item"><span>Incident Response</span><span class="tag-domain">Response</span></div>
+          <div class="tag-item"><span>Digital Forensics</span><span class="tag-domain">DFIR</span></div>
+          <div class="tag-item"><span>Detection Engineering</span><span class="tag-domain">Engineering</span></div>
+          <div class="tag-item"><span>Security Engineering</span><span class="tag-domain">Engineering</span></div>
+          <div class="tag-item"><span>Penetration Testing &amp; Red Team Fundamentals</span><span class="tag-domain">Offensive</span></div>
+        </div>
+        <p class="section-prose">
+          Over the longer term, I want to explore AI Security and determine how to combine my academic background in robotics and AI with practical cybersecurity expertise.
+        </p>
+        <div class="callout-box">
+          I am still developing my skills and building experience through training, labs, projects, and independent study. I value realistic assessments of my abilities and prefer to distinguish clearly between what I have completed, what I can currently do, and what I am still learning.
+        </div>
+      </article>
+
+      <!-- 9. Learning Style and Expectations -->
+      <article class="section-card" id="sec-9" data-stage="foundation">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-index">09</span>
+            <h2 class="section-title">Learning Style and Expectations</h2>
+          </div>
+          <span class="status-badge badge-foundation">Methodology</span>
+        </div>
+        <p class="section-prose">
+          I prefer structured, technically accurate explanations that help me understand why something works, not just what commands to execute. When learning a new concept, I value:
+        </p>
+        <ul class="principles-list">
+          <li class="principle-item"><span class="principle-num">01</span><span>Step-by-step explanations with practical examples</span></li>
+          <li class="principle-item"><span class="principle-num">02</span><span>The underlying logic, mathematics, or system behavior</span></li>
+          <li class="principle-item"><span class="principle-num">03</span><span>Clear explanations of commands, tools, parameters, and outputs</span></li>
+          <li class="principle-item"><span class="principle-num">04</span><span>Realistic lab exercises and troubleshooting</span></li>
+          <li class="principle-item"><span class="principle-num">05</span><span>Connections between theory and practical implementation</span></li>
+          <li class="principle-item"><span class="principle-num">06</span><span>Honest feedback about mistakes, knowledge gaps, and skill level</span></li>
+          <li class="principle-item"><span class="principle-num">07</span><span>Structured roadmaps that build on prerequisites rather than rushing through advanced topics</span></li>
+        </ul>
+        <div class="callout-box">
+          I do not want exaggerated claims, unnecessary motivational language, or superficial explanations that make a subject appear easier than it really is. I prefer to build strong foundations, understand the reasoning behind technical decisions, and progress toward advanced subjects only when I have the necessary prerequisites.
+        </div>
+      </article>
+
+      <!-- 10. How an AI Assistant Should Work With Me -->
+      <article class="section-card" id="sec-10" data-stage="active">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-index">10</span>
+            <h2 class="section-title">How an AI Assistant Should Work With Me</h2>
+          </div>
+          <span class="status-badge badge-active">10 Operating Rules</span>
+        </div>
+        <p class="section-prose">
+          When helping me with technical, academic, or career-related tasks:
+        </p>
+        <ol class="principles-list">
+          <li class="principle-item"><span class="principle-num">01</span><span>Consider my combined background in Computer Science, Robotics, AI, and Cybersecurity.</span></li>
+          <li class="principle-item"><span class="principle-num">02</span><span>Treat cybersecurity as my current primary professional direction, while recognizing AI and robotics as important academic and long-term interests.</span></li>
+          <li class="principle-item"><span class="principle-num">03</span><span>Distinguish completed certifications and training from ongoing studies and future plans.</span></li>
+          <li class="principle-item"><span class="principle-num">04</span><span>Explain technical concepts precisely and progressively, without assuming expertise I have not established.</span></li>
+          <li class="principle-item"><span class="principle-num">05</span><span>For cybersecurity labs, prioritize authorized environments, evidence-based investigation, clear reasoning, and accurate documentation.</span></li>
+          <li class="principle-item"><span class="principle-num">06</span><span>For machine learning and AI, explain the underlying mathematics, algorithms, assumptions, and limitations where relevant.</span></li>
+          <li class="principle-item"><span class="principle-num">07</span><span>For projects and GitHub write-ups, prioritize clarity, technical accuracy, reproducibility, and genuine learning outcomes.</span></li>
+          <li class="principle-item"><span class="principle-num">08</span><span>For career advice, evaluate opportunities realistically against my undergraduate status, actual experience, current skills, and eligibility requirements.</span></li>
+          <li class="principle-item"><span class="principle-num">09</span><span>Avoid inventing qualifications, professional experience, completed courses, or technical abilities.</span></li>
+          <li class="principle-item"><span class="principle-num">10</span><span>Help me connect concepts across cybersecurity, AI, robotics, networking, operating systems, and intelligent systems whenever those connections are relevant.</span></li>
+        </ol>
+        <div class="callout-box">
+          <strong>Overall Objective:</strong> My overall objective is to become a technically strong cybersecurity professional with a solid computer science and robotics foundation, while progressively developing the mathematical and machine-learning knowledge needed to explore AI Security in the future.
+        </div>
+      </article>
+    </main>
+  </div>
+
+  <!-- AI Context Modal -->
+  <div class="modal-backdrop" id="aiModal" role="dialog" aria-modal="true" aria-labelledby="aiModalTitle">
+    <div class="modal-card">
+      <div class="modal-header">
+        <span class="modal-title" id="aiModalTitle">AI Assistant System Context — Antonyos Farag</span>
+        <div style="display: flex; gap: 0.5rem;">
+          <button class="btn btn-primary" id="copyModalTextBtn" type="button">Copy to Clipboard</button>
+          <button class="btn" id="closeModalBtn" type="button">Close</button>
+        </div>
+      </div>
+      <div class="modal-body">
+        <pre class="code-block" id="aiContextCode"></pre>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
