@@ -563,6 +563,34 @@ body {
   display: inline-block;
 }
 
+/* SVG Widget Showcase */
+.widget-showcase {
+  margin: 1rem 0;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--border-strong);
+  background: var(--bg-canvas);
+}
+
+.widget-showcase img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Colorful Badge Strip */
+.badge-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0.9rem 0;
+}
+
+.badge-strip img {
+  height: 26px;
+  border-radius: 4px;
+}
+
 /* Interactive SOC Lab Diagram */
 .lab-Explorer {
   background: var(--bg-subtle);

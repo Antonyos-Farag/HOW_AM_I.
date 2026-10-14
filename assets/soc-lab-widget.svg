@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="socBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <marker id="arrowCyan" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#38bdf8"/>
+    </marker>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#10b981"/>
+    </marker>
+  </defs>
+
+  <rect width="1100" height="340" rx="14" fill="url(#socBg)" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- Header -->
+  <text x="36" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="700" fill="#f8fafc">
+    🖧 SOC Lab Architecture &amp; Telemetry Pipeline
+  </text>
+  <text x="36" y="62" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#94a3b8">
+    UBUNTU ELASTIC ENVIRONMENT · WINDOWS SERVER &amp; ENDPOINTS · SYSMON &amp; WINLOGBEAT · FORTIGATE
+  </text>
+  <line x1="36" y1="76" x2="1064" y2="76" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Stage 1: Endpoints & Perimeter Sources -->
+  <rect x="36" y="96" width="235" height="64" rx="8" fill="#131c31" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="52" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#60a5fa">
+    🖥️ Windows Endpoints
+  </text>
+  <text x="52" y="144" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#94a3b8">
+    Host Activity &amp; Event Logs
+  </text>
+
+  <rect x="36" y="174" width="235" height="64" rx="8" fill="#131c31" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="52" y="200" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#60a5fa">
+    🗄️ Windows Server
+  </text>
+  <text x="52" y="222" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#94a3b8">
+    Server &amp; Auth Telemetry
+  </text>
+
+  <rect x="36" y="252" width="235" height="64" rx="8" fill="#131c31" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="52" y="278" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#f87171">
+    🔥 FortiGate Firewall
+  </text>
+  <text x="52" y="300" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#94a3b8">
+    Network Traffic &amp; Perimeter
+  </text>
+
+  <!-- Arrows Stage 1 -> Stage 2 -->
+  <line x1="271" y1="128" x2="328" y2="155" stroke="#38bdf8" stroke-width="2" marker-end="url(#arrowCyan)"/>
+  <line x1="271" y1="206" x2="328" y2="195" stroke="#38bdf8" stroke-width="2" marker-end="url(#arrowCyan)"/>
+  <line x1="271" y1="284" x2="328" y2="275" stroke="#38bdf8" stroke-width="2" marker-end="url(#arrowCyan)"/>
+
+  <!-- Stage 2: Telemetry Shippers & Agents -->
+  <rect x="334" y="110" width="225" height="125" rx="10" fill="#131c31" stroke="#06b6d4" stroke-width="1.5"/>
+  <text x="352" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="700" fill="#22d3ee">
+    📡 Telemetry Collectors
+  </text>
+  <text x="352" y="164" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#e2e8f0">
+    • Sysmon (Process/Net/File)
+  </text>
+  <text x="352" y="186" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#e2e8f0">
+    • Winlogbeat Event Shipper
+  </text>
+  <text x="352" y="208" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#e2e8f0">
+    • Elastic Agent &amp; Fleet
+  </text>
+
+  <rect x="334" y="248" width="225" height="68" rx="10" fill="#131c31" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="352" y="274" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#fbbf24">
+    🦈 Traffic &amp; Packet Analysis
+  </text>
+  <text x="352" y="296" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#94a3b8">
+    Wireshark · Network Inspection
+  </text>
+
+  <!-- Arrows Stage 2 -> Stage 3 -->
+  <line x1="559" y1="172" x2="616" y2="195" stroke="#10b981" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  <line x1="559" y1="282" x2="616" y2="235" stroke="#10b981" stroke-width="2" marker-end="url(#arrowGreen)"/>
+
+  <!-- Stage 3: Ubuntu Elastic SIEM Core -->
+  <rect x="622" y="102" width="215" height="214" rx="10" fill="#0d2229" stroke="#10b981" stroke-width="1.8"/>
+  <text x="640" y="132" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#34d399">
+    🐧 Ubuntu SIEM Core
+  </text>
+  <text x="640" y="154" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#6ee7b7">
+    Elastic Stack Environment
+  </text>
+  <line x1="640" y1="166" x2="818" y2="166" stroke="#1e293b" stroke-width="1"/>
+  <text x="640" y="190" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#f1f5f9">
+    ▸ Elasticsearch
+  </text>
+  <text x="640" y="214" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#f1f5f9">
+    ▸ Kibana Dashboards
+  </text>
+  <text x="640" y="238" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#f1f5f9">
+    ▸ Fleet Server
+  </text>
+  <text x="640" y="268" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#94a3b8">
+    Also studied &amp; practiced:
+  </text>
+  <text x="640" y="288" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="600" fill="#38bdf8">
+    Splunk · Wazuh
+  </text>
+
+  <!-- Arrow Stage 3 -> Stage 4 -->
+  <line x1="837" y1="208" x2="884" y2="208" stroke="#38bdf8" stroke-width="2" marker-end="url(#arrowCyan)"/>
+
+  <!-- Stage 4: SOC Analysis & Detection Engineering -->
+  <rect x="890" y="102" width="174" height="214" rx="10" fill="#171532" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="906" y="132" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="700" fill="#c084fc">
+    🔎 SOC Operations
+  </text>
+  <text x="906" y="160" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#e2e8f0">
+    • Alert Triage
+  </text>
+  <text x="906" y="184" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#e2e8f0">
+    • Threat Hunting
+  </text>
+  <text x="906" y="208" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#e2e8f0">
+    • Sigma Rules
+  </text>
+  <text x="906" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#e2e8f0">
+    • MITRE ATT&amp;CK
+  </text>
+  <text x="906" y="256" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#e2e8f0">
+    • Endpoint DFIR
+  </text>
+  <text x="906" y="280" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#e2e8f0">
+    • Write-Up Docs
+  </text>
+</svg>
