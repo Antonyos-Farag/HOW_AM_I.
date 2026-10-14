@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 410" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="barEmerald" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+    <linearGradient id="barCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="barPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <linearGradient id="barAmber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="barRose" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e11d48"/>
+      <stop offset="100%" stop-color="#fb7185"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1100" height="410" rx="14" fill="url(#cardBg)" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- Widget Header -->
+  <text x="36" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" fill="#f8fafc">
+    📊 Completed Cybersecurity Training &amp; Practical Experience Dashboard
+  </text>
+  <text x="36" y="65" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#94a3b8">
+    VERIFIED COMPLETED PROGRAMS · HANDS-ON LABS · TECHNICAL &amp; INVESTIGATIVE TRAINING
+  </text>
+  <line x1="36" y1="80" x2="1064" y2="80" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Left Column: Scored & Intensive Programs -->
+  <!-- Card 1: NTI/ITIDA -->
+  <rect x="36" y="98" width="500" height="92" rx="10" fill="#111c33" stroke="#10b981" stroke-width="1.2"/>
+  <text x="54" y="124" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15.5" font-weight="700" fill="#f8fafc">
+    🏆 NTI / ITIDA Network Security Training
+  </text>
+  <rect x="412" y="108" width="106" height="24" rx="12" fill="#064e3b" stroke="#10b981" stroke-width="1"/>
+  <text x="425" y="124" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" fill="#34d399">
+    99.5% GRADE
+  </text>
+  <text x="54" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#94a3b8">
+    90 Hours Technical Training + 30 Hours Soft Skills &amp; Freelancing (120h Total)
+  </text>
+  <!-- Progress Bar -->
+  <rect x="54" y="160" width="464" height="12" rx="6" fill="#0b1120"/>
+  <rect x="54" y="160" width="461" height="12" rx="6" fill="url(#barEmerald)"/>
+
+  <!-- Card 2: Cisco CyberOps Associate -->
+  <rect x="36" y="204" width="500" height="92" rx="10" fill="#111c33" stroke="#0ea5e9" stroke-width="1.2"/>
+  <text x="54" y="230" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15.5" font-weight="700" fill="#f8fafc">
+    🛡️ Cisco CyberOps Associate Training
+  </text>
+  <rect x="408" y="214" width="110" height="24" rx="12" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1"/>
+  <text x="421" y="230" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" fill="#38bdf8">
+    92/100 SCORE
+  </text>
+  <text x="54" y="252" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#94a3b8">
+    Completed through NTI &amp; Cisco Networking Academy · SOC Monitoring &amp; Analysis
+  </text>
+  <rect x="54" y="266" width="464" height="12" rx="6" fill="#0b1120"/>
+  <rect x="54" y="266" width="427" height="12" rx="6" fill="url(#barCyan)"/>
+
+  <!-- Card 3: Huawei HCIA-Security V4.0 -->
+  <rect x="36" y="310" width="500" height="76" rx="10" fill="#111c33" stroke="#f59e0b" stroke-width="1.2"/>
+  <text x="54" y="338" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15.5" font-weight="700" fill="#f8fafc">
+    🔐 Huawei HCIA-Security V4.0 Training
+  </text>
+  <rect x="412" y="320" width="106" height="24" rx="12" fill="#451a03" stroke="#fbbf24" stroke-width="1"/>
+  <text x="427" y="336" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="700" fill="#fbbf24">
+    COMPLETED
+  </text>
+  <text x="54" y="362" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#94a3b8">
+    Network Security Architecture, Firewall Operations &amp; Information Security
+  </text>
+
+  <!-- Right Column: TryHackMe & Internship Programs -->
+  <!-- Card 4: TryHackMe SOC Level 2 -->
+  <rect x="564" y="98" width="500" height="92" rx="10" fill="#111c33" stroke="#f43f5e" stroke-width="1.2"/>
+  <text x="582" y="124" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15.5" font-weight="700" fill="#f8fafc">
+    🎯 TryHackMe — SOC Level 2
+  </text>
+  <rect x="940" y="108" width="106" height="24" rx="12" fill="#4c0519" stroke="#fb7185" stroke-width="1"/>
+  <text x="955" y="124" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="700" fill="#fb7185">
+    COMPLETED
+  </text>
+  <text x="582" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#94a3b8">
+    SIEM Alert Investigation, Log Analysis, Threat Hunting, Sigma &amp; MITRE ATT&amp;CK
+  </text>
+  <rect x="582" y="160" width="464" height="12" rx="6" fill="#0b1120"/>
+  <rect x="582" y="160" width="464" height="12" rx="6" fill="url(#barRose)"/>
+
+  <!-- Card 5: TryHackMe Advanced Endpoint Investigation -->
+  <rect x="564" y="204" width="500" height="92" rx="10" fill="#111c33" stroke="#a855f7" stroke-width="1.2"/>
+  <text x="582" y="230" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15.5" font-weight="700" fill="#f8fafc">
+    🔬 TryHackMe — Advanced Endpoint Investigation
+  </text>
+  <rect x="940" y="214" width="106" height="24" rx="12" fill="#3b0764" stroke="#c084fc" stroke-width="1"/>
+  <text x="955" y="230" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="700" fill="#c084fc">
+    COMPLETED
+  </text>
+  <text x="582" y="252" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#94a3b8">
+    File-System, Windows/Linux/macOS/Mobile Concepts, Memory &amp; Disk Forensics
+  </text>
+  <rect x="582" y="266" width="464" height="12" rx="6" fill="#0b1120"/>
+  <rect x="582" y="266" width="464" height="12" rx="6" fill="url(#barPurple)"/>
+
+  <!-- Card 6: TIPS Hindawi Internship -->
+  <rect x="564" y="310" width="500" height="76" rx="10" fill="#111c33" stroke="#38bdf8" stroke-width="1.2"/>
+  <text x="582" y="338" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15.5" font-weight="700" fill="#f8fafc">
+    ⚔️ TIPS Hindawi Cybersecurity Internship Program
+  </text>
+  <rect x="940" y="320" width="106" height="24" rx="12" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1"/>
+  <text x="955" y="336" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="700" fill="#38bdf8">
+    COMPLETED
+  </text>
+  <text x="582" y="362" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#94a3b8">
+    Penetration Testing Track · Web Application Security &amp; Offensive Techniques
+  </text>
+</svg>

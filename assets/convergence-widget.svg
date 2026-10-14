@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="convBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="100%" stop-color="#131c31"/>
+    </linearGradient>
+    <marker id="arrowPurple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#c084fc"/>
+    </marker>
+  </defs>
+
+  <rect width="1100" height="320" rx="14" fill="url(#convBg)" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- Header -->
+  <text x="36" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="700" fill="#f8fafc">
+    🧭 Domain Convergence: Cybersecurity × AI/ML × Robotics
+  </text>
+  <text x="36" y="62" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#94a3b8">
+    CURRENT PRIORITY: CYBERSECURITY &amp; SOC · ACADEMIC FOUNDATION: CS &amp; ROBOTICS · LONG-TERM: AI SECURITY
+  </text>
+  <line x1="36" y1="76" x2="1064" y2="76" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Pillar 1: Cybersecurity -->
+  <rect x="36" y="96" width="315" height="62" rx="8" fill="#0d2229" stroke="#10b981" stroke-width="1.5"/>
+  <text x="52" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#34d399">
+    🛡️ 1. Cybersecurity (Primary Priority)
+  </text>
+  <text x="52" y="143" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#94a3b8">
+    SOC · DFIR · SIEM · Detection · Pentesting
+  </text>
+
+  <!-- Pillar 2: CS & Robotics -->
+  <rect x="36" y="168" width="315" height="62" rx="8" fill="#131c31" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="52" y="194" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#38bdf8">
+    🤖 2. CS &amp; Robotics @ HNU Egypt
+  </text>
+  <text x="52" y="215" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#94a3b8">
+    OS · Networks · Embedded · Control · Robots
+  </text>
+
+  <!-- Pillar 3: AI & Math Foundations -->
+  <rect x="36" y="240" width="315" height="62" rx="8" fill="#1e1b2e" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="52" y="266" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#fbbf24">
+    📐 3. AI &amp; Mathematical Foundations
+  </text>
+  <text x="52" y="287" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#94a3b8">
+    Calculus · Linear Algebra · Optimization · ML
+  </text>
+
+  <!-- Convergence Lines -->
+  <line x1="351" y1="127" x2="435" y2="180" stroke="#c084fc" stroke-width="2" marker-end="url(#arrowPurple)"/>
+  <line x1="351" y1="199" x2="435" y2="199" stroke="#c084fc" stroke-width="2" marker-end="url(#arrowPurple)"/>
+  <line x1="351" y1="271" x2="435" y2="218" stroke="#c084fc" stroke-width="2" marker-end="url(#arrowPurple)"/>
+
+  <!-- Right Box: Long-Term Intersection Exploration -->
+  <rect x="444" y="96" width="620" height="206" rx="12" fill="#191330" stroke="#a855f7" stroke-width="1.8"/>
+  <text x="468" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16.5" font-weight="700" fill="#e9d5ff">
+    🚀 Long-Term Intersection &amp; Future Research Directions
+  </text>
+  <text x="468" y="148" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#c084fc">
+    (Areas of progressive future exploration — distinct from current claimed expertise)
+  </text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#f1f5f9">
+    <text x="468" y="180">✦ AI for Cybersecurity &amp; Intelligent Threat Detection</text>
+    <text x="468" y="204">✦ Machine Learning for Security Analytics &amp; Anomaly Detection</text>
+    <text x="468" y="228">✦ AI Security &amp; Protection of AI-Enabled Systems</text>
+    <text x="468" y="252">✦ Adversarial Machine Learning &amp; Model Robustness</text>
+    <text x="468" y="276">✦ Security of Autonomous &amp; Robotic Systems · Abnormal Behavior Detection</text>
+  </g>
+</svg>
