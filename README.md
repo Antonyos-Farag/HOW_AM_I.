@@ -131,11 +131,11 @@ A role-based menu for Admin, Seller and Customer that wraps Linux shell commands
 Four TryHackMe rooms written up with the reasoning, the queries and the evidence, not just the answers:
 
 | Room | Focus | Write-up |
-| :--- | :--- | :--- |
-| **Investigating with Splunk** | Splunk 8.2.6, SPL, nine investigative questions | [Repository →](https://github.com/Antonyos-Farag/Investigating-with-Splunk-THM-write-up) |
-| **Benign** | SOC Level 1: Event ID 4688, two Sigma rules, three SPL detections, IOCs | [Repository →](https://github.com/Antonyos-Farag/Benign_THM_write-up) |
-| **Phishing — Phishmas Greetings** | Advent of Cyber 2025, Day 12: manual triage of six emails | [Repository →](https://github.com/Antonyos-Farag/Phishing---Phishmas-Greetings-write-up) |
-| **Phishing — Merry Clickmas** | Advent of Cyber 2025, Day 2: lookalike login page, captured password reused on a mailbox | [Repository →](https://github.com/Antonyos-Farag/Phishing---Merry-Clickmas-write-up) |
+| :--- | :--- | ---: |
+| **Investigating with Splunk** | Splunk 8.2.6, SPL, nine investigative questions | [Repository&nbsp;→](https://github.com/Antonyos-Farag/Investigating-with-Splunk-THM-write-up) |
+| **Benign** | SOC Level 1: Event ID 4688, two Sigma rules, three SPL detections, IOCs | [Repository&nbsp;→](https://github.com/Antonyos-Farag/Benign_THM_write-up) |
+| **Phishing — Phishmas Greetings** | Advent of Cyber 2025, Day 12: manual triage of six emails | [Repository&nbsp;→](https://github.com/Antonyos-Farag/Phishing---Phishmas-Greetings-write-up) |
+| **Phishing — Merry Clickmas** | Advent of Cyber 2025, Day 2: lookalike login page, captured password reused on a mailbox | [Repository&nbsp;→](https://github.com/Antonyos-Farag/Phishing---Merry-Clickmas-write-up) |
 
 Two templates keep them consistent: a [TryHackMe write-up template](./templates/tryhackme-writeup-template.md) and a [SOC lab experiment template](./templates/soc-lab-experiment-template.md).
 
