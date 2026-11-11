@@ -1,6 +1,8 @@
 <div align="center">
 
 <picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/hero-narrow-dark.svg" />
+  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/hero-narrow-light.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg" />
   <img src="./assets/hero-dark.svg" alt="Antonyos Farag Mansour — Robotics Software Engineering student at Helwan National University; Cybersecurity (SOC, DFIR, detection engineering); AI and machine learning." width="100%" />
@@ -29,9 +31,8 @@ I do not publish scores I did not receive, ratings I cannot verify, or work I di
 
 ### What I'm into
 
-| | | |
+| **Robotics Software** | **Cybersecurity** | **AI & Machine Learning** |
 | :-: | :-: | :-: |
-| **🔒 Robotics Software** | **🛡️ Cybersecurity** | **🧠 AI & Machine Learning** |
 | Control, sensors, embedded systems, and the software that sits between a model of the world and a motor. | SOC operations, SIEM pipelines, log analysis, endpoint forensics, detection engineering — the defender's side, with enough offensive practice to know what is being defended against. | Regression to neural networks, with the calculus and linear algebra underneath them rather than a library call on top. |
 
 ---

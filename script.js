@@ -1,8 +1,6 @@
-const FULL_MARKDOWN = `# About Me — Antonyos Farag
+const FULL_MARKDOWN = `## 1. Academic Background
 
-## 1. Academic Background
-
-I am an undergraduate student in Computer Science and Information Technology at HNU in Egypt, specializing in Robotics. My academic background combines computer science, robotics, intelligent systems, automation, and artificial intelligence.
+I am an undergraduate student in Computer Science and Information Technology at Helwan National University in Egypt, specializing in Robotics Software Engineering. My academic background combines computer science, robotics, intelligent systems, automation, and artificial intelligence.
 
 My university studies cover a broad range of technical subjects, including:
 
@@ -22,6 +20,8 @@ My university studies cover a broad range of technical subjects, including:
 - Automatic Control, Virtual Reality, and Parallel Processing
 
 I am interested in understanding how these subjects connect to one another, especially how robotics, intelligent systems, AI, and cybersecurity can complement each other.
+
+---
 
 ## 2. Cybersecurity Focus
 
@@ -45,22 +45,27 @@ My longer-term goal is to develop strong practical security skills, understand h
 
 I am particularly interested in connecting offensive security knowledge with defensive security operations, allowing me to understand both attacker techniques and how defenders can detect and investigate them.
 
+---
+
 ## 3. Cybersecurity Training and Practical Experience
 
 I have completed cybersecurity training and hands-on learning programs, including:
 
-- NTI/ITIDA Network Security training, consisting of 90 hours of technical training and 30 hours of soft skills and freelancing training, with a final grade of 99.5%.
-- Cisco CyberOps Associate training through NTI and Cisco Networking Academy, with a score of 92/100.
-- Huawei HCIA-Security V4.0 training.
-- TryHackMe SOC Level 2.
-- TryHackMe Advanced Endpoint Investigation.
-- TIPS Hindawi Cybersecurity Internship Program — Penetration Testing track.
+- **NTI/ITIDA Network Security training**, consisting of 90 hours of technical training and 30 hours of soft skills and freelancing training, with a final grade of **99.5%**.
+- **Cisco CyberOps Associate training** through NTI and Cisco Networking Academy, with a score of **92/100**.
+- **Huawei HCIA-AI V4.0 training**.
+- **TIPS Hindawi: Red Teaming Training** — two months, final project presented and passed.
+- **TryHackMe Pre Security**, **Cyber Security 101**, **SOC Level 1**, **SOC Level 2** and **Advanced Endpoint Investigations** — all completed, with the profile in the top 1% globally.
+- **DeepLearning.AI / Stanford Online**: Supervised Machine Learning — Regression and Classification, and Calculus for Machine Learning and Data Science.
+- **DataCamp**: Python, beginner and intermediate levels.
 
 My practical learning has included security monitoring, packet and traffic analysis, threat hunting, incident investigation, endpoint forensics, web security, and adversary techniques.
 
 Through advanced endpoint investigation, I have explored file-system analysis, Windows and Linux investigations, macOS and mobile investigation concepts, memory forensics, disk-image analysis, and underlying technical concepts beyond simply using security tools.
 
 I am also developing my understanding of detection engineering, Windows event analysis, Sigma rules, MITRE ATT&CK, and the relationship between telemetry, attacker behavior, and security alerts.
+
+---
 
 ## 4. Tools, Platforms, and Labs
 
@@ -75,16 +80,26 @@ I have worked with or studied the following tools and technologies through train
 - FortiGate
 - Cisco Packet Tracer
 - Burp Suite
+- SQLMap
+- Hydra
+- Gobuster
 - Nmap
+- Volatility
+- Snort and Zeek
 - Kali Linux
+- Python, Java and C
+- Git
 - Windows and Windows Server
-- Linux environments
+- Linux environments, including Ubuntu and Debian
+- VMware and Cisco Packet Tracer
 
-I have worked on a SOC lab involving an Ubuntu-based Elastic environment, Windows endpoints, Windows Server, Sysmon, Winlogbeat, and FortiGate.
+I led a team of five on a SOC lab involving an Ubuntu-based Elastic environment, Windows endpoints, Windows Server, Sysmon, Winlogbeat, and FortiGate, and presented the result to doctors and instructors.
 
 I am interested in building realistic security environments, generating security telemetry, investigating alerts, understanding detection logic, and documenting the results of technical experiments.
 
 My TryHackMe learning is an important part of my development. I solve rooms, practice investigation techniques, revisit concepts, and aim to document my solutions as structured technical write-ups on GitHub.
+
+---
 
 ## 5. Artificial Intelligence and Machine Learning
 
@@ -113,6 +128,8 @@ I am building my foundations progressively, beginning with the necessary mathema
 
 My current goal is to develop genuine conceptual understanding rather than prematurely claim expertise in machine learning or deep learning.
 
+---
+
 ## 6. The Intersection of AI, Robotics, and Cybersecurity
 
 One of my main long-term interests is the intersection of AI and cybersecurity.
@@ -131,22 +148,26 @@ I want to explore how these fields can work together, particularly in areas such
 
 These are areas I want to investigate and develop toward over time, rather than fields in which I currently claim professional expertise.
 
+---
+
 ## 7. Projects and Technical Documentation
 
 I am developing a technical portfolio centered on practical learning, reproducible experiments, and clear documentation.
 
-My GitHub portfolio is intended to include:
+My GitHub portfolio includes:
 
-- TryHackMe room write-ups
-- Technical walkthroughs and investigation notes
-- Security analysis and detection experiments
-- Lab configurations and troubleshooting notes
-- Explanations of the techniques, tools, and concepts used
-- Supporting screenshots, diagrams, queries, and relevant technical evidence
+- TryHackMe room write-ups, and technical walkthroughs and investigation notes
+- Security analysis and detection experiments, plus lab configurations and troubleshooting notes
+- The Elastic SIEM lab, a team project of five that I led and presented
+- ChessBot, a fork of XxPhotonguyxX/ChessBot worked on as a team, where my part was alpha-beta pruning and the GUI
+- Course projects in Java, Python and C, each labelled with the part I did
+- Explanations of the techniques, tools, and concepts used, with screenshots, diagrams and queries as evidence
 
 My goal is not simply to publish answers or flags. I want my documentation to explain the investigation process, the reasoning behind each step, the evidence observed, the tools used, and the lessons learned.
 
 I value technical accuracy, reproducibility, and explanations that demonstrate understanding rather than blindly following instructions.
+
+---
 
 ## 8. Professional Direction
 
@@ -169,6 +190,8 @@ Over the longer term, I want to explore AI Security and determine how to combine
 
 I am still developing my skills and building experience through training, labs, projects, and independent study. I value realistic assessments of my abilities and prefer to distinguish clearly between what I have completed, what I can currently do, and what I am still learning.
 
+---
+
 ## 9. Learning Style and Expectations
 
 I prefer structured, technically accurate explanations that help me understand why something works, not just what commands to execute.
@@ -187,6 +210,8 @@ I do not want exaggerated claims, unnecessary motivational language, or superfic
 
 I prefer to build strong foundations, understand the reasoning behind technical decisions, and progress toward advanced subjects only when I have the necessary prerequisites.
 
+---
+
 ## 10. How an AI Assistant Should Work With Me
 
 When helping me with technical, academic, or career-related tasks:
@@ -204,31 +229,49 @@ When helping me with technical, academic, or career-related tasks:
 
 My overall objective is to become a technically strong cybersecurity professional with a solid computer science and robotics foundation, while progressively developing the mathematical and machine-learning knowledge needed to explore AI Security in the future.`;
 
-const AI_PROMPT_CONTEXT = `# User Profile & Operating Instructions: Antonyos Farag
+const AI_PROMPT_CONTEXT = `# User Profile: Antonyos Farag Mansour
 
-## Background Summary
-- Undergraduate student in Computer Science & Information Technology at HNU in Egypt, specializing in Robotics.
-- Primary Professional Direction: Cybersecurity (SOC Operations, SOC Analyst/Engineer paths, Threat Hunting, Incident Response, DFIR, Endpoint Investigation, Detection Engineering, Network Security, and Offensive/Red Team fundamentals).
-- Completed Training: NTI/ITIDA Network Security (99.5% final grade, 90h technical + 30h soft skills/freelancing), Cisco CyberOps Associate (92/100), Huawei HCIA-Security V4.0, TryHackMe SOC Level 2, TryHackMe Advanced Endpoint Investigation, TIPS Hindawi Cybersecurity Internship (Penetration Testing track).
-- Practical Stack & Lab: Elastic Stack (Elasticsearch, Kibana, Elastic Agent, Fleet, Fleet Server), Splunk, Wazuh, Wireshark, Sysmon, Winlogbeat, FortiGate, Cisco Packet Tracer, Burp Suite, Nmap, Kali Linux, Windows/Windows Server, Linux. Built a SOC lab combining Ubuntu Elastic Stack, Windows endpoints, Windows Server, Sysmon, Winlogbeat, and FortiGate.
-- AI/ML Approach: Studying AI, ML, Pattern Recognition, Neural Networks, Computer Vision, and NLP at university. Building mathematical and algorithmic foundations progressively (calculus, linear algebra, derivatives, gradient descent, optimization, regression, classification) rather than treating AI as black-box libraries.
-- Long-Term Exploration (Not Claimed as Current Expertise): AI for cybersecurity, ML anomaly detection, AI Security, adversarial ML, and security of autonomous/robotic systems.
+## 1. Academic & Technical Background
+- **Status:** Undergraduate student in Computer Science and Information Technology at Helwan National University in Egypt, specializing in Robotics Software Engineering (2024 – present).
+- **Academic Domains:** Computer Science, Robotics, Intelligent Systems, Automation, Artificial Intelligence (AI), Machine Learning (ML), Pattern Recognition, Neural Networks, Computer Vision, NLP, Speech Processing, Algorithms, Operating Systems, Computer Architecture & Microprocessors, Embedded & Real-Time Systems, Computer Networks & Information Security, Robot Arms, Mobile Robots, Sensors & Actuators, Automatic Control, Virtual Reality, Parallel Processing.
 
-## How You Should Work With Me
+## 2. Primary Professional Focus: Cybersecurity
+- **Core Focus Areas:** SOC Operations (SOC Analyst / SOC Engineer paths), Network Security & Traffic Analysis, Threat Hunting & Incident Response, Digital Forensics & Endpoint Investigation, SIEM Monitoring & Alert Analysis, Windows Security, Sysmon, Linux, Detection Engineering (Sigma rules, MITRE ATT&CK, telemetry-to-alert logic), Threat Intelligence, Web Application Security, Penetration Testing, and Red Team fundamentals.
+- **Completed Training & Programs:**
+  - NTI/ITIDA Network Security training (90h technical + 30h soft skills/freelancing) — Final Grade: 99.5%
+  - Cisco CyberOps Associate training (NTI & Cisco Networking Academy) — Score: 92/100
+  - Huawei HCIA-AI V4.0 training
+  - TIPS Hindawi: Red Teaming Training (2 months, final project presented and passed)
+  - TryHackMe: Pre Security, Cyber Security 101, SOC Level 1, SOC Level 2, Advanced Endpoint Investigations
+  - DeepLearning.AI / Stanford Online: Supervised Machine Learning (Regression and Classification); Calculus for Machine Learning and Data Science
+  - DataCamp: Python (Beginner, Intermediate)
+- **Tools & Lab Experience:**
+  - Elastic Stack (Elasticsearch, Kibana, Elastic Agent, Fleet, Fleet Server), Splunk, Wazuh
+  - Wireshark, Snort, Zeek, Sysmon, Winlogbeat, FortiGate, Cisco Packet Tracer
+  - Burp Suite, SQLMap, Hydra, Gobuster, Nmap, Volatility, Kali Linux, Windows / Windows Server, Linux (Ubuntu, Debian)
+  - Python, Java, C, Git
+  - Led a team of five on a SOC lab: Ubuntu-based Elastic environment, Windows endpoints, Windows Server, Sysmon, Winlogbeat, and FortiGate.
+
+## 3. AI, Machine Learning & Long-Term Intersection
+- **Approach to AI/ML:** Building progressive mathematical and algorithmic foundations (calculus, linear algebra, derivatives, gradient descent, optimization, regression, classification, neural networks) rather than treating AI as black-box libraries.
+- **Long-Term Exploration (Not Claimed as Current Expertise):** AI for cybersecurity, ML for security analytics and anomaly detection, intelligent threat detection, AI security, adversarial ML, and security of autonomous/robotic systems.
+
+## 4. How You Should Work With Me
 1. Consider my combined background in Computer Science, Robotics, AI, and Cybersecurity.
 2. Treat cybersecurity as my current primary professional direction, while recognizing AI and robotics as important academic and long-term interests.
 3. Distinguish completed certifications and training from ongoing studies and future plans.
 4. Explain technical concepts precisely and progressively, without assuming expertise I have not established.
 5. For cybersecurity labs, prioritize authorized environments, evidence-based investigation, clear reasoning, and accurate documentation.
 6. For machine learning and AI, explain the underlying mathematics, algorithms, assumptions, and limitations where relevant.
-7. For projects and GitHub write-ups, prioritize clarity, technical accuracy, reproducibility, and genuine learning outcomes.
+7. For projects and GitHub write-ups, prioritize clarity, technical accuracy, reproducibility, and genuine learning outcomes (explain the investigation process, reasoning, evidence, tools, and lessons learned — not just flags or commands).
 8. For career advice, evaluate opportunities realistically against my undergraduate status, actual experience, current skills, and eligibility requirements.
-9. Avoid inventing qualifications, professional experience, completed courses, or technical abilities. Avoid exaggerated claims or superficial explanations.
-10. Help me connect concepts across cybersecurity, AI, robotics, networking, operating systems, and intelligent systems whenever those connections are relevant.`;
+9. Avoid inventing qualifications, professional experience, completed courses, or technical abilities. Avoid exaggerated claims, unnecessary motivational language, or superficial explanations.
+10. Help me connect concepts across cybersecurity, AI, robotics, networking, operating systems, and intelligent systems whenever those connections are relevant.
+11. Never describe a team project as solo work. Credit lines are part of the content: Elastic SIEM lab (team of five, led by me), ChessBot (fork of XxPhotonguyxX/ChessBot, my part was alpha-beta pruning and the GUI), Bug Tracker System (services and backend), SRTF simulator (scheduling algorithm), Linux terminal app (documentation and build).`;
 
 const LAB_DETAILS = {
   elastic:
-    '<strong>Ubuntu-based Elastic Environment:</strong> Central SIEM server running Elasticsearch and Kibana alongside Elastic Agent, Fleet, and Fleet Server to ingest, normalize, and analyze host and network security telemetry across the lab.',
+    '<strong>Ubuntu-based Elastic Environment:</strong> Central SIEM server running Elasticsearch and Kibana alongside Elastic Agent, Fleet, and Fleet Server to ingest, normalize, and analyze host and network security telemetry across the lab. Team of five, led by me.',
   windows:
     '<strong>Windows Endpoints &amp; Windows Server:</strong> Target hosts and server infrastructure used to simulate realistic enterprise activity, authentication events, process execution, and investigative scenarios.',
   telemetry:
