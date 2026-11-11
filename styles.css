@@ -1,4 +1,5 @@
 :root {
+  color-scheme: dark;
   --bg-canvas: #0b0f17;
   --bg-surface: #111827;
   --bg-elevated: #161f33;
@@ -746,9 +747,180 @@ body {
 
 @media (max-width: 960px) {
   .layout {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
   .sidebar {
     position: static;
   }
+}
+
+/* Light theme: same tokens, same contrast targets, applied by system preference. */
+@media (prefers-color-scheme: light) {
+  :root {
+    color-scheme: light;
+    --bg-canvas: #f6f8fc;
+    --bg-surface: #ffffff;
+    --bg-elevated: #eef2f9;
+    --bg-subtle: #e9eef7;
+    --border-subtle: #dbe3f0;
+    --border-strong: #c3cfdf;
+    --text-primary: #0b1220;
+    --text-secondary: #3f5069;
+    --text-muted: #6b7a90;
+
+    --accent-primary: #0d6efd;
+    --accent-primary-dim: rgba(13, 110, 253, 0.1);
+    --status-completed: #0f7b5f;
+    --status-completed-bg: rgba(15, 123, 95, 0.1);
+    --status-active: #0d6efd;
+    --status-active-bg: rgba(13, 110, 253, 0.1);
+    --status-foundation: #9a6400;
+    --status-foundation-bg: rgba(154, 100, 0, 0.1);
+    --status-future: #6d28d9;
+    --status-future-bg: rgba(109, 40, 217, 0.1);
+  }
+  .topbar { background: rgba(246, 248, 252, 0.9); }
+  .code-block { background: var(--bg-subtle); }
+}
+
+/* Quick links */
+.quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 1.75rem;
+}
+
+.quick-link {
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  background: var(--bg-surface);
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 120ms ease, border-color 120ms ease;
+}
+
+.quick-link:hover,
+.quick-link:focus-visible {
+  color: var(--accent-primary);
+  border-color: var(--accent-primary);
+}
+
+/* Featured projects */
+.featured { margin-bottom: 2rem; }
+
+.featured-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.9rem;
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.project-card {
+  border: 1px solid var(--border-subtle);
+  border-radius: 10px;
+  background: var(--bg-surface);
+  padding: 1.1rem 1.15rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.project-card h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.project-card p {
+  font-size: 0.86rem;
+  line-height: 1.55;
+  color: var(--text-secondary);
+}
+
+.project-meta {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+
+.project-link {
+  margin-top: auto;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--accent-primary);
+  text-decoration: none;
+}
+
+.project-link:hover { text-decoration: underline; }
+
+.widget-showcase picture { display: block; }
+.widget-showcase img { display: block; width: 100%; height: auto; }
+
+@media (max-width: 720px) {
+  .featured-grid { grid-template-columns: 1fr; }
+}
+
+/* Below 720px the sidebar would push the actual profile a full screen down,
+   so it becomes a horizontal strip of section links instead. */
+@media (max-width: 720px) {
+  .layout { padding-top: 1rem; }
+
+  .sidebar {
+    border: 1px solid var(--border-subtle);
+    border-radius: 10px;
+    background: var(--bg-surface);
+    padding: 0.65rem 0.7rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .sidebar-label,
+  .sidebar-divider,
+  .legend-list { display: none; }
+
+  .sidebar,
+  .content { min-width: 0; }
+
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+    min-width: 0;
+    overflow-x: auto;
+    padding-bottom: 0.15rem;
+    scrollbar-width: thin;
+  }
+
+  .nav-list li { flex: 0 0 auto; }
+
+  .nav-link {
+    white-space: nowrap;
+    border-left: none;
+    border: 1px solid var(--border-subtle);
+    border-radius: 999px;
+    padding: 0.35rem 0.7rem;
+    font-size: 0.78rem;
+  }
+
+  .nav-link.active {
+    border-color: var(--accent-primary);
+    background: var(--accent-primary-dim);
+  }
+
+  .nav-num { display: none; }
+
+  .topbar-inner { flex-wrap: wrap; gap: 0.6rem; }
+  .topbar-actions { width: 100%; }
+  .btn { flex: 1 1 auto; justify-content: center; }
+
+  .content { padding: 0 0.9rem; }
 }

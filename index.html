@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About Me — Antonyos Farag | Cybersecurity, CS &amp; Robotics</title>
+  <title>About Me — Antonyos Farag Mansour | Cybersecurity, CS &amp; Robotics</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -13,8 +13,8 @@
       <div class="brand">
         <div class="brand-mark">AF</div>
         <div class="brand-text">
-          <span class="brand-name">Antonyos Farag</span>
-          <span class="brand-sub">CS &amp; IT (Robotics) @ HNU Egypt · Cybersecurity Focus</span>
+          <span class="brand-name">Antonyos Farag Mansour</span>
+          <span class="brand-sub">CS &amp; IT (Robotics Software Engineering) @ Helwan National University · Cybersecurity Focus</span>
         </div>
       </div>
       <div class="topbar-actions">
@@ -63,8 +63,50 @@
     <main class="content">
       <!-- Visual Hero Banner Widget -->
       <div class="widget-showcase" style="margin-top: 0;">
-        <img src="./assets/hero-banner.svg" alt="Antonyos Farag Hero Banner Widget" />
+        <picture>
+          <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg" />
+          <img src="./assets/hero-dark.svg" alt="Antonyos Farag Mansour — Robotics Software Engineering student, Cybersecurity, AI" />
+        </picture>
       </div>
+
+      <!-- Quick links -->
+      <nav class="quick-links" aria-label="Quick links">
+        <a class="quick-link" href="https://www.linkedin.com/in/antonyos-farag-9560b6341" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="quick-link" href="https://github.com/Antonyos-Farag" target="_blank" rel="noopener">GitHub</a>
+        <a class="quick-link" href="https://tryhackme.com/p/AntonyosFarag" target="_blank" rel="noopener">TryHackMe · top 1%</a>
+        <a class="quick-link" href="mailto:antonyosfarag6@gmail.com">Email</a>
+      </nav>
+
+      <!-- Featured projects -->
+      <section class="featured" aria-labelledby="featuredTitle">
+        <h2 class="featured-title" id="featuredTitle">Featured projects</h2>
+        <div class="featured-grid">
+          <article class="project-card">
+            <h3>Elastic SIEM Lab</h3>
+            <p>Ubuntu-hosted Elastic Stack collecting Windows and FortiGate telemetry, with Nmap and Hydra exercises from Kali in an isolated lab.</p>
+            <p class="project-meta">Team of 5 — I led it</p>
+            <a class="project-link" href="https://github.com/Antonyos-Farag/Elastic-SIEM-Network-Security-Monitoring-Lab" target="_blank" rel="noopener">Repository →</a>
+          </article>
+          <article class="project-card">
+            <h3>ChessBot</h3>
+            <p>A chess engine with browser and desktop apps: alpha-beta search, transposition table, quiescence search, an opening book and 57 tests.</p>
+            <p class="project-meta">Forked from XxPhotonguyxX/ChessBot · my part: alpha-beta pruning and the GUI</p>
+            <a class="project-link" href="https://github.com/Antonyos-Farag/ChessBot" target="_blank" rel="noopener">Repository →</a>
+          </article>
+          <article class="project-card">
+            <h3>Bug Tracker System</h3>
+            <p>Role-based desktop bug tracker in Java and JavaFX, with a layered design and a console client.</p>
+            <p class="project-meta">Team project · my part: services and backend</p>
+            <a class="project-link" href="https://github.com/Antonyos-Farag/Bug_tracker_system" target="_blank" rel="noopener">Repository →</a>
+          </article>
+          <article class="project-card">
+            <h3>Write-ups</h3>
+            <p>Four TryHackMe rooms written up with the reasoning, the queries and the evidence: Splunk, Benign, and two Advent of Cyber phishing rooms.</p>
+            <p class="project-meta">Investigating with Splunk · Benign · Phishmas Greetings · Merry Clickmas</p>
+            <a class="project-link" href="https://github.com/Antonyos-Farag?tab=repositories" target="_blank" rel="noopener">All repositories →</a>
+          </article>
+        </div>
+      </section>
 
       <!-- Filter & Search Bar -->
       <div class="filter-bar" role="region" aria-label="Filter sections by stage or keyword">
@@ -95,7 +137,7 @@
           <span class="status-badge badge-foundation">Academic Foundation · HNU Egypt</span>
         </div>
         <p class="section-prose">
-          I am an undergraduate student in <strong>Computer Science and Information Technology at HNU in Egypt</strong>, specializing in <strong>Robotics</strong>. My academic background combines computer science, robotics, intelligent systems, automation, and artificial intelligence.
+          I am an undergraduate student in <strong>Computer Science and Information Technology at Helwan National University in Egypt</strong>, specializing in <strong>Robotics Software Engineering</strong>. My academic background combines computer science, robotics, intelligent systems, automation, and artificial intelligence.
         </p>
         <div class="table-wrap">
           <table class="data-table">
@@ -211,7 +253,10 @@
         </div>
 
         <div class="widget-showcase">
-          <img src="./assets/training-metrics-widget.svg" alt="Completed Cybersecurity Training Dashboard Widget" />
+          <picture>
+            <source media="(prefers-color-scheme: light)" srcset="./assets/training-widget-light.svg" />
+            <img src="./assets/training-widget-dark.svg" alt="Six completed programs, with certificate scores only where a score exists" />
+          </picture>
         </div>
 
         <div class="table-wrap">
@@ -242,9 +287,9 @@
               </tr>
               <tr>
                 <td><strong>03</strong></td>
-                <td><strong>Huawei HCIA-Security V4.0 Training</strong></td>
+                <td><strong>Huawei HCIA-AI V4.0 Training</strong></td>
                 <td>Huawei</td>
-                <td>Network security architecture, firewall operations, and information security</td>
+                <td>Artificial intelligence foundations and the machine learning landscape</td>
                 <td><span class="metric-pill">Completed</span></td>
               </tr>
               <tr>
@@ -256,16 +301,16 @@
               </tr>
               <tr>
                 <td><strong>05</strong></td>
-                <td><strong>TryHackMe Advanced Endpoint Investigation</strong></td>
+                <td><strong>TryHackMe Advanced Endpoint Investigations</strong></td>
                 <td>TryHackMe</td>
                 <td>File-system analysis, Windows &amp; Linux investigations, macOS &amp; mobile concepts, memory forensics, disk-image analysis</td>
                 <td><span class="metric-pill">Completed</span></td>
               </tr>
               <tr>
                 <td><strong>06</strong></td>
-                <td><strong>TIPS Hindawi Cybersecurity Internship Program</strong></td>
+                <td><strong>TIPS Hindawi: Red Teaming Training</strong></td>
                 <td>TIPS Hindawi</td>
-                <td>Penetration Testing track — Web security and offensive testing techniques</td>
+                <td>2 months of red teaming — final project presented and passed</td>
                 <td><span class="metric-pill">Completed</span></td>
               </tr>
             </tbody>
@@ -356,7 +401,10 @@
         </div>
 
         <div class="widget-showcase">
-          <img src="./assets/soc-lab-widget.svg" alt="SOC Lab Architecture and Telemetry Pipeline Widget" />
+          <picture>
+            <source media="(prefers-color-scheme: light)" srcset="./assets/soc-lab-widget-light.svg" />
+            <img src="./assets/soc-lab-widget-dark.svg" alt="SOC lab architecture: sources, shippers, SIEM and the attack station" />
+          </picture>
         </div>
 
         <!-- Interactive SOC Lab Architecture Inspector -->
@@ -441,7 +489,10 @@
           <span class="status-badge badge-future">Long-Term Exploration</span>
         </div>
         <div class="widget-showcase">
-          <img src="./assets/convergence-widget.svg" alt="Domain Convergence Widget" />
+          <picture>
+            <source media="(prefers-color-scheme: light)" srcset="./assets/convergence-widget-light.svg" />
+            <img src="./assets/convergence-widget-dark.svg" alt="Where cybersecurity, robotics and AI meet" />
+          </picture>
         </div>
         <div class="table-wrap">
           <table class="data-table">
@@ -541,7 +592,7 @@
             <tbody>
               <tr>
                 <td><span class="status-badge badge-completed">Completed Training</span></td>
-                <td>NTI/ITIDA Network Security (99.5%), Cisco CyberOps Associate (92/100), Huawei HCIA-Security V4.0, TryHackMe SOC Level 2, TryHackMe Advanced Endpoint Investigation, TIPS Hindawi Penetration Testing Internship</td>
+                <td>NTI/ITIDA Network Security (99.5%), Cisco CyberOps Associate (92/100), Huawei HCIA-AI V4.0, TIPS Hindawi: Red Teaming Training, TryHackMe Pre Security, Cyber Security 101, SOC Level 1, SOC Level 2, Advanced Endpoint Investigations (top 1% globally), DeepLearning.AI / Stanford Online ML and Calculus courses, DataCamp Python</td>
               </tr>
               <tr>
                 <td><span class="status-badge badge-active">Current Priority &amp; Roles</span></td>
@@ -643,7 +694,7 @@
   <div class="modal-backdrop" id="aiModal" role="dialog" aria-modal="true" aria-labelledby="aiModalTitle">
     <div class="modal-card">
       <div class="modal-header">
-        <span class="modal-title" id="aiModalTitle">AI Assistant System Context — Antonyos Farag</span>
+        <span class="modal-title" id="aiModalTitle">AI Assistant System Context — Antonyos Farag Mansour</span>
         <div style="display: flex; gap: 0.5rem;">
           <button class="btn btn-primary" id="copyModalTextBtn" type="button">Copy to Clipboard</button>
           <button class="btn" id="closeModalBtn" type="button">Close</button>

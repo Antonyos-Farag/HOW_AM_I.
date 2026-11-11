@@ -2,11 +2,11 @@
 
 # 🛡️ 2. Cybersecurity Focus, Training & Practical Labs
 
-[![NTI ITIDA](https://img.shields.io/badge/🏆_NTI%2FITIDA_NetSec-99.5%25_(120_Hrs)-059669?style=for-the-badge)](../README.md)
-[![Cisco CyberOps](https://img.shields.io/badge/🛡️_Cisco_CyberOps_Associate-92%2F100-0284c7?style=for-the-badge&logo=cisco&logoColor=white)](../README.md)
-[![Huawei HCIA](https://img.shields.io/badge/🔐_Huawei-HCIA--Security_V4.0-e11d48?style=for-the-badge&logo=huawei&logoColor=white)](../README.md)
-[![TryHackMe](https://img.shields.io/badge/🎯_TryHackMe-SOC_L2_%2B_Endpoint_DFIR-ef4444?style=for-the-badge&logo=tryhackme&logoColor=white)](../README.md)
-[![TIPS Hindawi](https://img.shields.io/badge/⚔️_TIPS_Hindawi-Penetration_Testing_Track-f97316?style=for-the-badge)](../README.md)
+[![NTI ITIDA](https://img.shields.io/badge/NTI%2FITIDA_NetSec-99.5%25_(120_Hrs)-059669?style=for-the-badge)](../README.md)
+[![Cisco CyberOps](https://img.shields.io/badge/Cisco_CyberOps_Associate-92%2F100-0284c7?style=for-the-badge&logo=cisco&logoColor=white)](../README.md)
+[![Huawei HCIA](https://img.shields.io/badge/Huawei-HCIA--AI_V4.0-e11d48?style=for-the-badge&logo=huawei&logoColor=white)](../README.md)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-5_Paths_%C2%B7_Top_1%25-ef4444?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/AntonyosFarag)
+[![TIPS Hindawi](https://img.shields.io/badge/TIPS_Hindawi-Red_Teaming_Training-f97316?style=for-the-badge)](../README.md)
 
 </div>
 
@@ -31,7 +31,13 @@ Cybersecurity is my **primary professional direction**. I am developing practica
 ## 🏆 Completed Training & Practical Programs
 
 <div align="center">
-  <img src="../assets/training-metrics-widget.svg" alt="Completed Cybersecurity Training and Practical Experience Dashboard" width="100%" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/training-widget-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="../assets/training-widget-light.svg" />
+  <img src="../assets/training-widget-dark.svg" alt="Six completed programs, with certificate scores only where a score exists" width="100%" />
+</picture>
+
 </div>
 
 <br />
@@ -40,10 +46,13 @@ Cybersecurity is my **primary professional direction**. I am developing practica
 | :-: | :--- | :--- | :--- |
 | **01** | **Network Security Training** | NTI / ITIDA | **90 hours** of technical training + **30 hours** of soft skills & freelancing training — **Final Grade: 99.5%** |
 | **02** | **Cisco CyberOps Associate** | NTI & Cisco Networking Academy | Security operations, monitoring, traffic analysis, and incident response — **Score: 92/100** |
-| **03** | **Huawei HCIA-Security V4.0** | Huawei Training | Network and information security fundamentals and implementation — **Completed** |
+| **03** | **Huawei HCIA-AI V4.0** | Huawei Training | Artificial intelligence fundamentals and the AI landscape the certification covers — **Completed** |
 | **04** | **SOC Level 2** | TryHackMe | Hands-on SOC operations, SIEM alert triage, log analysis, and detection workflows — **Completed** |
-| **05** | **Advanced Endpoint Investigation** | TryHackMe | File-system analysis, Windows/Linux investigations, macOS & mobile investigation concepts, memory forensics, disk-image analysis — **Completed** |
-| **06** | **Cybersecurity Internship Program** | TIPS Hindawi | **Penetration Testing Track** — Web security and offensive testing methodology — **Completed** |
+| **05** | **Advanced Endpoint Investigations** | TryHackMe | File-system analysis, Windows/Linux investigations, macOS & mobile investigation concepts, memory forensics, disk-image analysis — **Completed** |
+| **06** | **TIPS Hindawi: Red Teaming Training** | TIPS Hindawi | **2 months** of red teaming and offensive methodology, with a final project presented and passed — **Completed** |
+| **07** | **Pre Security · Cyber Security 101 · SOC Level 1** | TryHackMe | The three earlier paths, completed before SOC Level 2 — **Completed** |
+| **08** | **Supervised Machine Learning · Calculus for Machine Learning** | DeepLearning.AI / Stanford Online | Regression, classification, and the calculus behind them — **Completed** |
+| **09** | **Python (Beginner, Intermediate)** | DataCamp | Language foundations used across the lab and course projects — **Completed** |
 
 ---
 
@@ -73,6 +82,16 @@ Cybersecurity is my **primary professional direction**. I am developing practica
 ![Cisco Packet Tracer](https://img.shields.io/badge/Cisco_Packet_Tracer-1BA0D7?style=flat-square&logo=cisco&logoColor=white)
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
 ![Nmap](https://img.shields.io/badge/Nmap-0ea5e9?style=flat-square)
+![SQLMap](https://img.shields.io/badge/SQLMap-b91c1c?style=flat-square)
+![Hydra](https://img.shields.io/badge/Hydra-0f766e?style=flat-square)
+![Gobuster](https://img.shields.io/badge/Gobuster-7c3aed?style=flat-square)
+![Snort](https://img.shields.io/badge/Snort-F6A7AA?style=flat-square)
+![Zeek](https://img.shields.io/badge/Zeek-1d4ed8?style=flat-square)
+![Volatility](https://img.shields.io/badge/Volatility-334155?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F03C2E?style=flat-square&logo=git&logoColor=white)
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows_%26_Windows_Server-0078D6?style=flat-square&logo=windows&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux_%2F_Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
@@ -82,12 +101,18 @@ Cybersecurity is my **primary professional direction**. I am developing practica
 ### 🖧 Multi-Component SOC Lab Environment
 
 <div align="center">
-  <img src="../assets/soc-lab-widget.svg" alt="SOC Lab Architecture and Telemetry Pipeline" width="100%" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/soc-lab-widget-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="../assets/soc-lab-widget-light.svg" />
+  <img src="../assets/soc-lab-widget-dark.svg" alt="SOC lab architecture: sources, shippers, SIEM, and the attack station" width="100%" />
+</picture>
+
 </div>
 
 <br />
 
-I have worked on a SOC lab integrating:
+I led a team of five on a SOC lab integrating:
 - **Ubuntu-based Elastic environment** (**Elasticsearch**, **Kibana**, **Elastic Agent**, **Fleet**, and **Fleet Server**)
 - **Windows endpoints** and **Windows Server**
 - **Sysmon** and **Winlogbeat** for host-level event and telemetry collection

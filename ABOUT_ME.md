@@ -1,8 +1,8 @@
-# About Me — Antonyos Farag
+# About Me — Antonyos Farag Mansour
 
 ## 1. Academic Background
 
-I am an undergraduate student in Computer Science and Information Technology at HNU in Egypt, specializing in Robotics. My academic background combines computer science, robotics, intelligent systems, automation, and artificial intelligence.
+I am an undergraduate student in Computer Science and Information Technology at Helwan National University in Egypt, specializing in Robotics Software Engineering. My academic background combines computer science, robotics, intelligent systems, automation, and artificial intelligence.
 
 My university studies cover a broad range of technical subjects, including:
 
@@ -55,10 +55,11 @@ I have completed cybersecurity training and hands-on learning programs, includin
 
 - **NTI/ITIDA Network Security training**, consisting of 90 hours of technical training and 30 hours of soft skills and freelancing training, with a final grade of **99.5%**.
 - **Cisco CyberOps Associate training** through NTI and Cisco Networking Academy, with a score of **92/100**.
-- **Huawei HCIA-Security V4.0 training**.
-- **TryHackMe SOC Level 2**.
-- **TryHackMe Advanced Endpoint Investigation**.
-- **TIPS Hindawi Cybersecurity Internship Program** — Penetration Testing track.
+- **Huawei HCIA-AI V4.0 training**.
+- **TIPS Hindawi: Red Teaming Training** — two months, final project presented and passed.
+- **TryHackMe Pre Security**, **Cyber Security 101**, **SOC Level 1**, **SOC Level 2** and **Advanced Endpoint Investigations** — all completed, with the profile in the top 1% globally.
+- **DeepLearning.AI / Stanford Online**: Supervised Machine Learning — Regression and Classification, and Calculus for Machine Learning and Data Science.
+- **DataCamp**: Python, beginner and intermediate levels.
 
 My practical learning has included security monitoring, packet and traffic analysis, threat hunting, incident investigation, endpoint forensics, web security, and adversary techniques.
 
@@ -81,12 +82,20 @@ I have worked with or studied the following tools and technologies through train
 - FortiGate
 - Cisco Packet Tracer
 - Burp Suite
+- SQLMap
+- Hydra
+- Gobuster
 - Nmap
+- Volatility
+- Snort and Zeek
 - Kali Linux
+- Python, Java and C
+- Git
 - Windows and Windows Server
-- Linux environments
+- Linux environments, including Ubuntu and Debian
+- VMware and Cisco Packet Tracer
 
-I have worked on a SOC lab involving an Ubuntu-based Elastic environment, Windows endpoints, Windows Server, Sysmon, Winlogbeat, and FortiGate.
+I led a team of five on a SOC lab involving an Ubuntu-based Elastic environment, Windows endpoints, Windows Server, Sysmon, Winlogbeat, and FortiGate, and presented the result to doctors and instructors.
 
 I am interested in building realistic security environments, generating security telemetry, investigating alerts, understanding detection logic, and documenting the results of technical experiments.
 
@@ -147,14 +156,14 @@ These are areas I want to investigate and develop toward over time, rather than 
 
 I am developing a technical portfolio centered on practical learning, reproducible experiments, and clear documentation.
 
-My GitHub portfolio is intended to include:
+My GitHub portfolio includes:
 
-- TryHackMe room write-ups
-- Technical walkthroughs and investigation notes
-- Security analysis and detection experiments
-- Lab configurations and troubleshooting notes
-- Explanations of the techniques, tools, and concepts used
-- Supporting screenshots, diagrams, queries, and relevant technical evidence
+- TryHackMe room write-ups, and technical walkthroughs and investigation notes
+- Security analysis and detection experiments, plus lab configurations and troubleshooting notes
+- The Elastic SIEM lab, a team project of five that I led and presented
+- ChessBot, a fork of XxPhotonguyxX/ChessBot worked on as a team, where my part was alpha-beta pruning and the GUI
+- Course projects in Java, Python and C, each labelled with the part I did
+- Explanations of the techniques, tools, and concepts used, with screenshots, diagrams and queries as evidence
 
 My goal is not simply to publish answers or flags. I want my documentation to explain the investigation process, the reasoning behind each step, the evidence observed, the tools used, and the lessons learned.
 

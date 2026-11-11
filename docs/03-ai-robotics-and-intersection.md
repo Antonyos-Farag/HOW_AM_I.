@@ -2,9 +2,9 @@
 
 # 🧠 3. Artificial Intelligence, Machine Learning & Cybersecurity Intersection
 
-[![Foundations](https://img.shields.io/badge/📐_AI_%26_ML-Mathematical_Foundations-f59e0b?style=for-the-badge)](../README.md)
-[![Robotics](https://img.shields.io/badge/🤖_Academic_Track-Robotics_%26_Intelligent_Systems-0ea5e9?style=for-the-badge)](../README.md)
-[![Long Term](https://img.shields.io/badge/🚀_Long--Term_Goal-AI_Security-a855f7?style=for-the-badge)](../README.md)
+[![Foundations](https://img.shields.io/badge/AI_%26_ML-Mathematical_Foundations-f59e0b?style=for-the-badge)](../README.md)
+[![Robotics](https://img.shields.io/badge/Academic_Track-Robotics_Software_Engineering-0ea5e9?style=for-the-badge)](../README.md)
+[![Long Term](https://img.shields.io/badge/Long--Term_Goal-AI_Security-a855f7?style=for-the-badge)](../README.md)
 
 </div>
 
@@ -29,14 +29,21 @@ I do not want to treat AI as simply a collection of libraries or ready-made mode
 ## 🔗 Long-Term Vision: The Intersection of AI, Robotics & Cybersecurity
 
 <div align="center">
-  <img src="../assets/convergence-widget.svg" alt="Domain Convergence: Cybersecurity, AI/ML, and Robotics" width="100%" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/convergence-widget-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="../assets/convergence-widget-light.svg" />
+  <img src="../assets/convergence-widget-dark.svg" alt="Where cybersecurity, robotics and AI meet, and the seven exploration areas that follow" width="100%" />
+</picture>
+
 </div>
 
 <br />
 
 One of my main long-term interests is the intersection of AI and cybersecurity:
 
-- **🎓 Academic Foundation (Robotics & CS):** Intelligent systems, algorithms, automation, sensors/actuators, and autonomous technologies.
+- **🎓 Academic Foundation (Robotics Software & CS):** Intelligent systems, algorithms, automation, sensors/actuators, and autonomous technologies.
+- **📐 Coursework behind the AI/ML row:** Supervised Machine Learning (Regression and Classification) and Calculus for Machine Learning and Data Science, DeepLearning.AI / Stanford Online.
 - **🛡️ Practical Foundation (Cybersecurity):** Networks, operating systems, security monitoring, endpoint investigation, and adversary behavior.
 
 ### 🔭 Future Exploration Areas

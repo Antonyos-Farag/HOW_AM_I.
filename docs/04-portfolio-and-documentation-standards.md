@@ -2,7 +2,7 @@
 
 # 📝 4. Technical Documentation Standards, Career Direction & Learning Methodology
 
-[![Portfolio](https://img.shields.io/badge/📂_Portfolio-Reproducible_Write--Ups_%26_Labs-10b981?style=for-the-badge)](../README.md)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Reproducible_Write--Ups_%26_Labs-10b981?style=for-the-badge)](../README.md)
 [![Career](https://img.shields.io/badge/🧭_Direction-SOC_%7C_DFIR_%7C_Detection_Engineering-0284c7?style=for-the-badge)](../README.md)
 [![Methodology](https://img.shields.io/badge/📚_Methodology-First_Principles_%26_Accuracy-f59e0b?style=for-the-badge)](../README.md)
 
@@ -16,7 +16,7 @@ I am developing a technical portfolio centered on **practical learning**, **repr
 
 | 📌 Intended Portfolio Content | 🛠️ Scope & Purpose | 📄 Reusable Template |
 | :--- | :--- | :---: |
-| **🎯 TryHackMe Room Write-Ups** | Structured investigative write-ups and room walkthroughs | [`tryhackme-writeup-template.md`](../templates/tryhackme-writeup-template.md) |
+| **🎯 TryHackMe Room Write-Ups** | Structured investigative write-ups and room walkthroughs; four are published | [`tryhackme-writeup-template.md`](../templates/tryhackme-writeup-template.md) |
 | **🕵️ Technical Walkthroughs & Investigation Notes** | Step-by-step documentation of forensic and incident investigations | [`tryhackme-writeup-template.md`](../templates/tryhackme-writeup-template.md) |
 | **⚙️ Security Analysis & Detection Experiments** | Telemetry generation, Sigma rule creation, and SIEM alert analysis | [`soc-lab-experiment-template.md`](../templates/soc-lab-experiment-template.md) |
 | **🖧 Lab Configurations & Troubleshooting Notes** | Architecture deployment details and real-world troubleshooting steps | [`soc-lab-experiment-template.md`](../templates/soc-lab-experiment-template.md) |
@@ -48,10 +48,10 @@ My goal is **not** simply to publish answers or flags. Every technical document 
 
 | Stage | Scope |
 | :--- | :--- |
-| ![Completed](https://img.shields.io/badge/🟢_Completed-059669?style=flat-square) | NTI/ITIDA Network Security (**99.5%**, 120h), Cisco CyberOps Associate (**92/100**), Huawei HCIA-Security V4.0, TryHackMe SOC Level 2, TryHackMe Advanced Endpoint Investigation, TIPS Hindawi Penetration Testing Internship |
-| ![Current](https://img.shields.io/badge/🔵_Current_Practice-0284c7?style=flat-square) | SOC lab building (Ubuntu Elastic Stack, Fleet, Windows Server/Endpoints, Sysmon, Winlogbeat, FortiGate), SIEM alert investigation (Elastic, Splunk, Wazuh), endpoint forensics, packet analysis (Wireshark), detection engineering (Sigma, MITRE ATT&CK), TryHackMe write-ups |
-| ![Ongoing](https://img.shields.io/badge/🟡_Ongoing_Foundations-d97706?style=flat-square) | Undergraduate CS, IT & Robotics coursework at HNU; mathematical and algorithmic foundations of AI/ML (calculus, linear algebra, derivatives, optimization, regression, classification, neural networks) |
-| ![Future](https://img.shields.io/badge/🟣_Future_Exploration-7c3aed?style=flat-square) | AI Security, adversarial machine learning, ML for security analytics/anomaly detection, and security of autonomous & robotic systems |
+| ![Completed](https://img.shields.io/badge/Completed-059669?style=flat-square) | NTI/ITIDA Network Security (**99.5%**, 120h), Cisco CyberOps Associate (**92/100**), Huawei HCIA-AI V4.0, TIPS Hindawi: Red Teaming Training (2 months, final project presented and passed), TryHackMe Pre Security, Cyber Security 101, SOC Level 1, SOC Level 2, Advanced Endpoint Investigations (top 1% globally), DeepLearning.AI / Stanford Online ML and Calculus courses, DataCamp Python |
+| ![Current](https://img.shields.io/badge/Current_Practice-0284c7?style=flat-square) | SOC lab building (Ubuntu Elastic Stack, Fleet, Windows Server/Endpoints, Sysmon, Winlogbeat, FortiGate), SIEM alert investigation (Elastic, Splunk, Wazuh), endpoint forensics, packet analysis (Wireshark), detection engineering (Sigma, MITRE ATT&CK), TryHackMe write-ups |
+| ![Ongoing](https://img.shields.io/badge/Ongoing_Foundations-d97706?style=flat-square) | Undergraduate CS, IT & Robotics coursework at HNU; mathematical and algorithmic foundations of AI/ML (calculus, linear algebra, derivatives, optimization, regression, classification, neural networks) |
+| ![Future](https://img.shields.io/badge/Future_Exploration-7c3aed?style=flat-square) | AI Security, adversarial machine learning, ML for security analytics/anomaly detection, and security of autonomous & robotic systems |
 
 ---
 
