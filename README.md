@@ -198,6 +198,17 @@ The GitHub card is drawn from a local SVG on purpose: no third-party widget can 
 
 ## The Long Version
 
+### ⚡ Quick Profile Snapshot
+
+| 🧭 Dimension | 📌 Current Status & Details | 🏷️ Stage |
+| :--- | :--- | :---: |
+| **🎓 Academic Program** | Undergraduate in **Computer Science & Information Technology** at **Helwan National University (Egypt)** — specializing in **Robotics Software Engineering**, 2024 to present | Ongoing degree |
+| **🛡️ Primary Career Focus** | **Cybersecurity** — SOC Operations, SOC Analyst/Engineer, Threat Hunting, Incident Response, DFIR, Detection Engineering | Primary direction |
+| **🏅 Completed Training** | **NTI/ITIDA Network Security (99.5%)** · **Cisco CyberOps Associate (92/100)** · **Huawei HCIA-AI V4.0** · **TIPS Hindawi: Red Teaming Training** · **TryHackMe Pre Security, Cyber Security 101, SOC Level 1, SOC Level 2, Advanced Endpoint Investigations** · **DeepLearning.AI / Stanford Online ML and Calculus courses** · **DataCamp Python** | Completed |
+| **🖧 Hands-On SOC Lab** | Multi-node lab: **Ubuntu Elastic Stack (Elasticsearch, Kibana, Fleet/Fleet Server)** + **Windows Server & Endpoints** + **Sysmon & Winlogbeat** + **FortiGate** — team of five, led by me | Active practice |
+| **📐 AI & ML Approach** | Progressive mathematical & algorithmic foundations (**Calculus, Linear Algebra, Optimization, Gradient Descent, Regression, Classification, Neural Networks**) | Building foundations |
+| **🚀 Long-Term Horizon** | **AI Security**, ML for Security Analytics & Anomaly Detection, Adversarial ML, and Security of Autonomous & Robotic Systems | Future exploration |
+
 The ten sections below are the original profile, kept in full and updated. They cover coursework, the security focus, every training program, the lab topology, the AI/ML approach, the intersection of the three fields, professional direction, learning style and the operating rules for any AI assistant working on my material.
 
 <details>
