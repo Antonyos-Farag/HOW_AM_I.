@@ -2,9 +2,9 @@
 
 # 🎓 1. Academic Background — Computer Science, IT & Robotics
 
-[![University](https://img.shields.io/badge/🎓_Institution-HNU_Egypt-0ea5e9?style=for-the-badge)](../README.md)
-[![Program](https://img.shields.io/badge/💻_Degree-Computer_Science_%26_IT-38bdf8?style=for-the-badge)](../README.md)
-[![Specialization](https://img.shields.io/badge/🤖_Specialization-Robotics-f59e0b?style=for-the-badge)](../README.md)
+[![University](https://img.shields.io/badge/Institution-Helwan_National_University-0ea5e9?style=for-the-badge)](../README.md)
+[![Program](https://img.shields.io/badge/Degree-Computer_Science_%26_IT-38bdf8?style=for-the-badge)](../README.md)
+[![Specialization](https://img.shields.io/badge/Specialization-Robotics_Software_Engineering-f59e0b?style=for-the-badge)](../README.md)
 
 </div>
 
@@ -12,7 +12,7 @@
 
 ## 📌 Overview
 
-I am an undergraduate student in **Computer Science and Information Technology at HNU in Egypt**, specializing in **Robotics**. My academic background combines computer science, robotics, intelligent systems, automation, and artificial intelligence.
+I am an undergraduate student in **Computer Science and Information Technology at Helwan National University (HNU) in Egypt**, specializing in **Robotics Software Engineering**, since 2024. My academic background combines computer science, robotics, intelligent systems, automation, and artificial intelligence.
 
 Throughout my university studies, I focus on understanding how core computing systems, hardware-software integration, mathematical modeling, and security principles connect to one another.
 

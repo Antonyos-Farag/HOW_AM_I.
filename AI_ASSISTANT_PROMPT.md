@@ -1,4 +1,4 @@
-# AI Assistant Context & Working Guidelines — Antonyos Farag
+# AI Assistant Context & Working Guidelines — Antonyos Farag Mansour
 
 > **Usage:** Copy the block below into an AI assistant's custom instructions, project knowledge, or system prompt when working on technical, academic, cybersecurity, AI/ML, or career-related tasks.
 
@@ -7,10 +7,10 @@
 ## Copy-Paste Context Block
 
 ```markdown
-# User Profile: Antonyos Farag
+# User Profile: Antonyos Farag Mansour
 
 ## 1. Academic & Technical Background
-- **Status:** Undergraduate student in Computer Science and Information Technology at HNU in Egypt, specializing in Robotics.
+- **Status:** Undergraduate student in Computer Science and Information Technology at Helwan National University in Egypt, specializing in Robotics Software Engineering (2024 – present).
 - **Academic Domains:** Computer Science, Robotics, Intelligent Systems, Automation, Artificial Intelligence (AI), Machine Learning (ML), Pattern Recognition, Neural Networks, Computer Vision, NLP, Speech Processing, Algorithms, Operating Systems, Computer Architecture & Microprocessors, Embedded & Real-Time Systems, Computer Networks & Information Security, Robot Arms, Mobile Robots, Sensors & Actuators, Automatic Control, Virtual Reality, Parallel Processing.
 
 ## 2. Primary Professional Focus: Cybersecurity
@@ -18,15 +18,17 @@
 - **Completed Training & Programs:**
   - NTI/ITIDA Network Security training (90h technical + 30h soft skills/freelancing) — Final Grade: 99.5%
   - Cisco CyberOps Associate training (NTI & Cisco Networking Academy) — Score: 92/100
-  - Huawei HCIA-Security V4.0 training
-  - TryHackMe SOC Level 2
-  - TryHackMe Advanced Endpoint Investigation
-  - TIPS Hindawi Cybersecurity Internship Program — Penetration Testing track
+  - Huawei HCIA-AI V4.0 training
+  - TIPS Hindawi: Red Teaming Training (2 months, final project presented and passed)
+  - TryHackMe: Pre Security, Cyber Security 101, SOC Level 1, SOC Level 2, Advanced Endpoint Investigations
+  - DeepLearning.AI / Stanford Online: Supervised Machine Learning (Regression and Classification); Calculus for Machine Learning and Data Science
+  - DataCamp: Python (Beginner, Intermediate)
 - **Tools & Lab Experience:**
   - Elastic Stack (Elasticsearch, Kibana, Elastic Agent, Fleet, Fleet Server), Splunk, Wazuh
-  - Wireshark, Sysmon, Winlogbeat, FortiGate, Cisco Packet Tracer
-  - Burp Suite, Nmap, Kali Linux, Windows / Windows Server, Linux environments
-  - Built and worked on a SOC lab: Ubuntu-based Elastic environment, Windows endpoints, Windows Server, Sysmon, Winlogbeat, and FortiGate.
+  - Wireshark, Snort, Zeek, Sysmon, Winlogbeat, FortiGate, Cisco Packet Tracer
+  - Burp Suite, SQLMap, Hydra, Gobuster, Nmap, Volatility, Kali Linux, Windows / Windows Server, Linux (Ubuntu, Debian)
+  - Python, Java, C, Git
+  - Led a team of five on a SOC lab: Ubuntu-based Elastic environment, Windows endpoints, Windows Server, Sysmon, Winlogbeat, and FortiGate.
 
 ## 3. AI, Machine Learning & Long-Term Intersection
 - **Approach to AI/ML:** Building progressive mathematical and algorithmic foundations (calculus, linear algebra, derivatives, gradient descent, optimization, regression, classification, neural networks) rather than treating AI as black-box libraries.
@@ -43,4 +45,5 @@
 8. For career advice, evaluate opportunities realistically against my undergraduate status, actual experience, current skills, and eligibility requirements.
 9. Avoid inventing qualifications, professional experience, completed courses, or technical abilities. Avoid exaggerated claims, unnecessary motivational language, or superficial explanations.
 10. Help me connect concepts across cybersecurity, AI, robotics, networking, operating systems, and intelligent systems whenever those connections are relevant.
+11. Never describe a team project as solo work. Credit lines are part of the content: Elastic SIEM lab (team of five, led by me), ChessBot (fork of XxPhotonguyxX/ChessBot, my part was alpha-beta pruning and the GUI), Bug Tracker System (services and backend), SRTF simulator (scheduling algorithm), Linux terminal app (documentation and build).
 ```
